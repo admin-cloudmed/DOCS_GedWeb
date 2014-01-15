@@ -28,6 +28,8 @@ navigation = [
   { "url" => "gedweb",                           "view_path" => "gedweb/index"},
 # Entendendo o Sistema
   { "url" => "understanding_the_system",             "view_path" => "understanding_the_system/index"},
+# Menu Principal
+  { "url" => "menu_main",             "view_path" => "menu_main/index"},
 ]
 
 navigation.each do |item|

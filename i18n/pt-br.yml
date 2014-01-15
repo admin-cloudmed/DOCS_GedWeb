@@ -1,7 +1,7 @@
 ﻿"pt-BR":
   main_menu:
     home: "Início"
-    docs: "Documentação Comprador"
+    docs: "Documentação GedWeb"
     get_in_touch: "Entre em contato"
   errors:
     not_found:
@@ -13,7 +13,7 @@
   footer:
     paragraph_1: "Os nomes e logotipos GedWeb são marcas registradas da CloudMed. Todos os direitos reservados."
     get_in_touch: "Entre em contato"
-  portalopme:
+  gedweb:
     index:
       title: "Visão geral do serviço GedWeb"
       table_of_contents:
@@ -22,106 +22,77 @@
         features_yield: "Funcionalidades e Finalidades."
         who_uses: "Quem Pode Utilizar?"
       how_it_works:
-        paragraph_1: "O GedWeb é uma solução para área de saúde no modelo <a href='http://pt.wikipedia.org/wiki/Software_como_serviço' target='blank' class='external'>SaaS</a>. É uma ferramenta que possibilita o armazenamento e acesso de documentos digitais gerados pela empresa, todos arquivos digitais e até papéis que podem ser digitalizados via scanner, podem ser armazenados no GedWeb e contar com toda sua segurança de armazenamento e acesso definidos pelo gestor."
+        paragraph_1: "O GedWeb é uma solução para área de saúde no modelo <a href='http://pt.wikipedia.org/wiki/Software_como_serviço' target='blank' class='external'>SaaS</a>. É uma ferramenta que possibilita o armazenamento e acesso de documentos digitais gerados pela empresa, todos arquivos digitais e até papéis que podem ser digitalizados via scanner, podem ser armazenados no GedWeb e contar com toda sua segurança de armazenamento e o acesso de cada usuário é definido pelo o settor que ele trabalha e suas permissões definidos pelo gestor do sistema (T.I)."
       features_yield:
-        paragraph_1: "O Portal de Compras é a solução da CloudMed que possibilita todo o acompanhamento e gestão das negociações de materiais OPME, auditoria técnica e médica, controle do material provisionado para a cirurgia, sua posterior aprovação para faturamento e possíveis divergências. Indicado para Operadoras de Planos de Saúde e Prestadores."
+        paragraph_1: "O GedWeb é a solução da CloudMed responsável por Armazenar com segurança qualquer tipo de documento (físico ou eletrônico). Ideal para controlar, organizar e buscar informações, gerenciando documentos e reduzindo espaço físico, sendo possível o compartilhamento com qualquer área e/ou departamento da empresa."
         feature_1: "Características"
         feature_2: "Desenvolvido para Web, ou seja, sem necessidade de qualquer instalação (.exe);"
-        feature_3: "Oferece interação, comunicação e relacionamento entre os envolvidos;"
-        feature_4: "Permite a negociação simultânea de vários e diferentes materiais com os fornecedores;"
-        feature_5: "Segurança através de usuários por perfis personalizados;"
-        feature_6: "Permite o cadastro de novos fornecedores, novos produtos e de infinitos usuários;"
-        feature_7: "Oferece a geração de relatório de economia, cotação e faturamento;"
-        feature_8: "Permite a indexação de consultas, guias e quaisquer documentos necessários."
+        feature_3: "Acessível por qualquer meio eletrônico que possua internet (PC’s, Notebooks, Tablets, Celulares, etc);"
+        feature_4: "Total integração com as estações de trabalho (scanner) para indexação de alta produtividade;"
+        feature_5: "Criação de tipos de documentos de forma dinâmica, contendo quais e quantos campos forem necessários;"
+        feature_6: "Indexação automática de alta performance com a ferramenta “Quick Index”;"
+        feature_7: "Inclusão, classificação e organização de qualquer tipo de documento;"
+        feature_8: "Resolução n° 1.821/2007 – Cons. Fed. Medicina Lei Federal n° 12.527/2011 - Lei de Acesso a Informação e Decreto n° 7724/2012;"
         feature_9: "Benefícios"
-        feature_10: "Acessível por qualquer meio eletrônico que possua internet (PC’s, Notebooks, Tablets, Celulares, etc);"
-        feature_11: "Controle total do processo, desde a cotação até a utilização do material;"
-        feature_12: "Maior poder de negociação e compra dos materiais, que geralmente são de alto custo;"
-        feature_13: "Relatório e histórico, por perfil, de todas as etapas do processo a ser gerenciado;"
-        feature_14: "Visualização de consultas, exames e laudos, tornando o procedimento mais rápido, beneficiando o paciente;"
-        feature_15: "Gestão do conhecimento e informações para planejamento e tomada de decisões;"
-        feature_16: "Ampla manutenção dos itens cadastrados, visando alinhar o melhor preço e qualidade, bem como o controle de validade do código ANVISA dos materiais."
+        feature_10: "Auditoria completa, registrando toda e qualquer movimentação feita pelo usuário;"
+        feature_11: "Segurança no acesso de documentos através de departamentos, grupos e confidencialidade;"
+        feature_12: "Segurança no acesso de usuários por perfis personalizados;"
+        feature_13: "Redução de tempo na localização de documentos;"
+        feature_14: "Fácil compartilhamento e acessibilidade dos documentos;"
+        feature_15: "Permite o relacionamento entre documentos;"
+        feature_16: "Notificação de documentos inclusos para usuários do mesmo departamento;"
+        feature_17: "Diminuição do uso de papel;"
       who_uses:
-        paragraph_1: "Nossa solução está no mercado há cinco anos, trabalhando na mais alta transparência, segurança e facilidade. Potenciais forças que podem utilizar nossa aplicação, são empresas como:"
-        item_1: "Operadores de Saúde;"
-        item_2: "Hospitais;"
-        item_3: "Fornecedores de materiais OPME;"
-        item_4: "Clínicas Cirúrgicas;"
-        item_5: "Todo seguimento de empresas que lidam com cotações de materiais de Órteses, Próteses e Materiais Especiais."
+        paragraph_1: "Nossa solução está no mercado há sete anos, trabalhando na mais alta transparência, segurança e facilidade. Potenciais forças que podem utilizar nossa aplicação, são empresas como:"
+        item_1: "* Operadores e Planos de Saúde;"
+        item_2: "* Prestadores de serviços (hospitais, clínicas, laboratórios, consultórios);"
+        item_3: "* Empresas de logística;"
+        item_4: "* Escritórios de contabilidade e advocacia;"
+        item_5: "* Universidades e escolas;"
+        item_6: "* Qualquer empresa que tenha grande volume de papéis arquivados."
   understanding_the_system:
    index:
       title: "Entendendo o Sistema"
       table_of_contents:
         index: "Índice" 
-        welcome: "Bem Vindo!" 
-        fluxograma: "Fluxograma do Sistema"
-        dashboard: "Dashboard"
-        mural: "Mural"
+        welcome: "Bem Vindo!"
+        flow: "Fluxo dos Documentos" 
       welcome:
-        item_1: "Olá, bem-vindo ao Portal de Compras da CloudMed! Iniciaremos agora, um passeio pelo sistema e suas funções, entendendo seus principais processos e funcionalidades. Fique à vontade e, qualquer dúvida, entre em contato conosco!"
-      dashboard:
-        item_1: "Abaixo temos o 'Dashboard' ou se preferir nosso 'Painel de Controle'! Esta é a primeira visualização que você terá ao entrar no Portal de Compras. Reunimos aqui de forma simples e objetiva as informações mais relevantes do sistema, de acordo com a movimentação e perfil de seu usuário. Perceba que na parte superior direita da tela existe um campo de busca: nele é possível buscar qualquer informação digitando somente uma palavra ou frase. Dependendo do filtro digitado, o sistema mostrará diretamente a informação ou uma lista de registros encontrados. Abuse desta funcionalidade! Nós a desenvolvemos para agilizar a busca de informações dos nossos usuários!"
-        item_2: "Dashboard"
-        item_3: "<a href='orcamentos#index' target='blank'>Orçamentos</a>"
-        item_4: "<a href='orcamentos#notas_fiscais' target='blank'>Aguardando Notas Fiscais</a>"
-        item_5: "<a href='http://www.cloudmed.io' target='blank'>CloudMed site</a>"
-        item_6: "<a href='orcamentos#pendentes' target='blank'>Pendentes Fornecedor</a>"
-        item_7: "Veja abaixo onde cada parte do dashboard te leva de maneira fácil e prática:"
-      mural:
-        item_1: "Abaixo apresentamos nosso mural. Nele você visualiza as publicações feitas pela CloudMed, como informações úteis aos usuários, dicas e alertas. Dessa forma, ser informado fica rápido e prático!"
-        item_2: "Mural"
-  menu_principal:
+        item_1: "Olá, bem-vindo ao GedWeb da CloudMed! Iniciaremos agora, um passeio pelo sistema e suas funções, entendendo seus principais processos e funcionalidades. Fique à vontade e, qualquer dúvida, entre em contato conosco!"
+      flow:
+        item_1: "O usuário separa os papéis/documentos que deseja incluir no Ged Web;"
+        item_2: "De posse destes documentos, ele os escaneia podendo utilizar o “Quick Index” para otimizar o processo de entrada de documentos no Ged Web;"
+        item_3: "Os documentos escaneados ficam disponíveis para que o “Quick Index” faça o upload automático para o Ged Web de acordo com o tipo de documento, ou, para a inclusão manual via interface Web;"
+        item_4: "Com os documentos inclusos no Ged Web os usuários passam a ter acesso à todas funcionalidades da ferramenta em ambiente WEB e seguro;"
+        item_5: "O usuário pode localizar um documento por diversos critérios de busca, e então realizar as seguintes ações: download do documento, atualizar a sua versão, relacioná-lo a outro documento, editar informações, etc;"
+        item_6: "Qualquer usuário (de acordo com as regras de segurança definidas previamente), pode acessar o documento facilitando a integração e compartilhamento de informações dentro da empresa."
+  menu_main:
    index:
       title: "Menu Principal"
       table_of_contents: 
         index: "Índice"
-        menu_principal: "Menu Principal"
-        menu_principal_dashboard: "Dashboard"
-        menu_principal_solicitar_opme: "Solicitar OPME"
-        menu_principal_orcamentos: "Orçamentos"
-        menu_principal_relatorios: "Relatórios"
-        menu_principal_configuracoes: "Configurações"
-      menu_principal:
+        menu_main: "Menu Principal"
+        menu_main_main: "Principal"
+        menu_main_new_document: "Novo Documento"
+        menu_main_search_document: "Localizar Documentos"
+        menu_main_config: "Configurações"
+        menu_main_logs: "Logs"
+        menu_main_expired_documents: "Documentos Expirados"
+      menu_main:
         item_1: "Abaixo você vê o menu principal do sistema. Ele sempre estará presente e visível no topo da tela, disponibilizando as ações para o usuário, de acordo com suas permissões previamente definidas."
         item_2: "Menu Principal"
-      menu_principal_dashboard:
-        item_1: "Aqui, você será redirecionado para o dashboard, que reúne as informações de maior relevância sobre as operações realizadas no sistemas, sendo também uma maneira de acessar de forma rápida qualquer informação lá descrita:"
-        item_2: "Menu Principal > Dashboard"
-        item_3: "Dashboard"
-      menu_principal_solicitar_opme:
-        item_1: "Em 'solicitar OPME' você dá início ao orçamento no sistema, conforme podemos ver abaixo."
-        item_2: "Menu Principal > Solicitar OPME"
-        item_3: "Solicitar OPME"
-      menu_principal_orcamentos:
-        item_1: "Seguindo pelo menu 'Orçamentos', o sistema oferecerá opções para acompanhamento dos orçamentos e respectivos status:"
-        item_2: "Localizar Orçamento"
-        item_3: "Faturados/10 dias"
-        item_4: "Aguardando Notas Fiscais"
-        item_5: "Concluídos"
-        item_6: "Divergências"
-        item_7: "Abertos"
-        item_8: "Pendente Auditor"
-        item_9: "Pendente Local Atendimento"
-        item_10: "Pendente Fornecedor"
-        item_11: "Menu Principal > Orçamentos"
-      menu_principal_relatorios:
-        item_1: "Em 'Relatórios', você visualiza e controla todos os orçamentos incluídos no sistema, seus status, e quaisquer informações necessárias:"
-        item_2: "Economia"
-        item_3: "Produtos Vencidos"
-        item_4: "Cotação"
-        item_5: "Faturamento"
-        item_6: "Menu Principal > Relatórios"
-      menu_principal_configuracoes:
-        item_1: "Além das configurações básicas do sistema, o menu 'Configurações' disponibiliza o cadastro dos produtos, onde é permitido atualizar informações dos materiais, seus fornecedores, cadastros, códigos, etc, conforme as seguintes opções:"
-        item_2: "Meus Dados"
-        item_3: "Lista de Produtos"
-        item_4: "Convidar Fornecedor"
-        item_5: "Cadastro >Local Atendimento"
-        item_6: "Cadastro >Prestador"
-        item_7: "Pesquisa >Local Atendimento"
-        item_8: "Pesquisa >Fornecedor"
-        item_9: "Pesquisa >Prestador"
-        item_10: "Menu Principal > Configurações"
+      menu_main_main:
+        item_1: ""
+      menu_main_new_document:
+        item_1: ""
+      menu_main_search_document:
+        item_1: ""
+      menu_main_config:
+        item_1: ""
+      menu_main_logs:
+        item_1: ""
+      menu_main_expired_documents:
+        item_1: ""
   acoes_disponiveis:
    index:
       title: "Ações Disponíveis"
