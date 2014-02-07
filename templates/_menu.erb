@@ -54,15 +54,12 @@
    <!-- Principal/Mural -->
    <div class="accordion-group">
       <div class="accordion-heading">
-         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour"  onclick="location.href = 'acoes_disponiveis'"> Principal</a>
+         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFour"  onclick="location.href = 'principal'"> Principal</a>
       </div>
       <div id="collapseFour" class="accordion-body collapse <%=is_group_active?("principal") %>">
          <div class="accordion-inner">
             <ul>
-               <li><a href="#"><%= link_to(I18n.t("principal.index.table_of_contents.agendar_fornecedor"), "principal#agendar_fornecedor_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("principal.index.table_of_contents.enviar_faturamento"), "principal#enviar_faturamento_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("principal.index.table_of_contents.confirmar_faturamento"), "principal#confirmar_faturamento_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("principal.index.table_of_contents.cancelar_orcamento"), "principal#cancelar_orcamento_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("principal.index.table_of_contents.principal"), "principal#principal_inner") %></a></li>
             </ul>
          </div>
       </div>
@@ -71,12 +68,18 @@
    <!-- Novo Documento -->
    <div class="accordion-group">
       <div class="accordion-heading">
-         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive"  onclick="location.href = 'solicitar_opme'"> Novo Documento</a>
+         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive"  onclick="location.href = 'new_document'"> Novo Documento</a>
       </div>
-      <div id="collapseFour" class="accordion-body collapse <%=is_group_active?("novo_documento") %>">
+      <div id="collapseFour" class="accordion-body collapse <%=is_group_active?("new_document") %>">
          <div class="accordion-inner">
             <ul>
-               <li><a href="#solicitar_opme"><%= link_to(I18n.t("novo_documento.index.table_of_contents.novo_documento"), "novo_documento#solicitar_opme_inner") %></a></li>
+               <li><a href="#new_document"><%= link_to(I18n.t("menu_main_new_document.index.table_of_contents.menu_main_new_document"), "new_document#menu_main_new_document_inner") %></a></li>
+               <li><a href="#step1"><%= link_to(I18n.t("menu_main_new_document.index.step1.item_2"), "new_document#step1_inner") %></a></li>
+               <li><a href="#step2"><%= link_to(I18n.t("menu_main_new_document.index.step2.item_2"), "new_document#step2_inner") %></a></li>
+               <li><a href="#step3"><%= link_to(I18n.t("menu_main_new_document.index.step3.item_2"), "new_document#step3_inner") %></a></li>
+               <li><a href="#step4"><%= link_to(I18n.t("menu_main_new_document.index.step4.item_2"), "new_document#step4_inner") %></a></li>
+               <li><a href="#step5"><%= link_to(I18n.t("menu_main_new_document.index.step5.item_2"), "new_document#step5_inner") %></a></li>
+               <li><a href="#step6"><%= link_to(I18n.t("menu_main_new_document.index.step6.item_2"), "new_document#step6_inner") %></a></li>
             </ul>
          </div>
       </div>

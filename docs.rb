@@ -30,6 +30,10 @@ navigation = [
   { "url" => "understanding_the_system",             "view_path" => "understanding_the_system/index"},
 # Menu Principal
   { "url" => "menu_main",             "view_path" => "menu_main/index"},
+# Principal
+  { "url" => "principal",             "view_path" => "principal/index"},
+# Principal
+  { "url" => "new_document",             "view_path" => "new_document/index"},
 ]
 
 navigation.each do |item|
