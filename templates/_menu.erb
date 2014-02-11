@@ -40,12 +40,12 @@
          <div class="accordion-inner">
             <ul>
                <li><a href="#"><%= link_to(I18n.t("menu_main.index.table_of_contents.menu_main"), "menu_main#menu_main_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("menu_main.index.table_of_contents.menu_main_main"), "menu_main#menu_main_main_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("menu_main.index.table_of_contents.menu_main_new_document"), "menu_main#menu_main_new_document_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("menu_main.index.table_of_contents.menu_main_search_document"), "menu_main#menu_main_search_document_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("menu_main.index.table_of_contents.menu_main_config"), "menu_main#menu_main_config_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("menu_main.index.table_of_contents.menu_main_logs"), "menu_main#menu_main_logs_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("menu_main.index.table_of_contents.menu_main_expired_documents"), "menu_main#menu_main_expired_documents_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("menu_main.index.table_of_contents.main"), "menu_main#main_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("menu_main.index.table_of_contents.new_document"), "menu_main#new_document_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("menu_main.index.table_of_contents.search_document"), "menu_main#search_document_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("menu_main.index.table_of_contents.config"), "menu_main#config_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("menu_main.index.table_of_contents.logs"), "menu_main#logs_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("menu_main.index.table_of_contents.expired_documents"), "menu_main#expired_documents_inner") %></a></li>
             </ul>
          </div>
       </div>
@@ -73,13 +73,33 @@
       <div id="collapseFour" class="accordion-body collapse <%=is_group_active?("new_document") %>">
          <div class="accordion-inner">
             <ul>
-               <li><a href="#new_document"><%= link_to(I18n.t("menu_main_new_document.index.table_of_contents.menu_main_new_document"), "new_document#menu_main_new_document_inner") %></a></li>
-               <li><a href="#step1"><%= link_to(I18n.t("menu_main_new_document.index.step1.item_2"), "new_document#step1_inner") %></a></li>
-               <li><a href="#step2"><%= link_to(I18n.t("menu_main_new_document.index.step2.item_2"), "new_document#step2_inner") %></a></li>
-               <li><a href="#step3"><%= link_to(I18n.t("menu_main_new_document.index.step3.item_2"), "new_document#step3_inner") %></a></li>
-               <li><a href="#step4"><%= link_to(I18n.t("menu_main_new_document.index.step4.item_2"), "new_document#step4_inner") %></a></li>
-               <li><a href="#step5"><%= link_to(I18n.t("menu_main_new_document.index.step5.item_2"), "new_document#step5_inner") %></a></li>
-               <li><a href="#step6"><%= link_to(I18n.t("menu_main_new_document.index.step6.item_2"), "new_document#step6_inner") %></a></li>
+               <li><a href="#new_document"><%= link_to(I18n.t("new_document.index.table_of_contents.new_document"), "new_document#new_document_inner") %></a></li>
+               <li><a href="#step1"><%= link_to(I18n.t("new_document.index.step1.item_2"), "new_document#step1_inner") %></a></li>
+               <li><a href="#step2"><%= link_to(I18n.t("new_document.index.step2.item_2"), "new_document#step2_inner") %></a></li>
+               <li><a href="#step3"><%= link_to(I18n.t("new_document.index.step3.item_2"), "new_document#step3_inner") %></a></li>
+               <li><a href="#step4"><%= link_to(I18n.t("new_document.index.step4.item_2"), "new_document#step4_inner") %></a></li>
+               <li><a href="#step5"><%= link_to(I18n.t("new_document.index.step5.item_2"), "new_document#step5_inner") %></a></li>
+               <li><a href="#step6"><%= link_to(I18n.t("new_document.index.step6.item_2"), "new_document#step6_inner") %></a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   
+   <!-- Novo Documento Ged-->
+   <div class="accordion-group">
+      <div class="accordion-heading">
+         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive"  onclick="location.href = 'new_document_ged'"> Novo Documento</a>
+      </div>
+      <div id="collapseFour" class="accordion-body collapse <%=is_group_active?("new_document_ged") %>">
+         <div class="accordion-inner">
+            <ul>
+               <li><a href="#new_document_ged"><%= link_to(I18n.t("new_document_ged.index.table_of_contents.new_document_ged"), "new_document_ged#new_document_inner") %></a></li>
+               <li><a href="#step1"><%= link_to(I18n.t("new_document_ged.index.step1.item_2"), "new_document_ged#step1_inner") %></a></li>
+               <li><a href="#step2"><%= link_to(I18n.t("new_document_ged.index.step2.item_2"), "new_document_ged#step2_inner") %></a></li>
+               <li><a href="#step3"><%= link_to(I18n.t("new_document_ged.index.step3.item_2"), "new_document_ged#step3_inner") %></a></li>
+               <li><a href="#step4"><%= link_to(I18n.t("new_document_ged.index.step4.item_2"), "new_document_ged#step4_inner") %></a></li>
+               <li><a href="#step5"><%= link_to(I18n.t("new_document_ged.index.step5.item_2"), "new_document_ged#step5_inner") %></a></li>
+               <li><a href="#step6"><%= link_to(I18n.t("new_document_ged.index.step6.item_2"), "new_document_ged#step6_inner") %></a></li>
             </ul>
          </div>
       </div>
@@ -88,15 +108,16 @@
    <!-- Localizar Documentos -->
    <div class="accordion-group">
       <div class="accordion-heading">
-         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix"  onclick="location.href = 'orcamentos'"> Localizar Documentos</a>
+         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSix"  onclick="location.href = 'search_document'"> Localizar Documentos</a>
       </div>
-      <div id="collapseFive" class="accordion-body collapse <%=is_group_active?("localizar_documentos") %>">
+      <div id="collapseFive" class="accordion-body collapse <%=is_group_active?("search_document") %>">
          <div class="accordion-inner">
             <ul>
-               <li><a href="#"><%= link_to(I18n.t("localizar_documentos.index.table_of_contents.localizar"), "localizar_documentos#localizar_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("localizar_documentos.index.table_of_contents.faturados"), "localizar_documentos#faturados_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("localizar_documentos.index.table_of_contents.notas_fiscais"), "localizar_documentos#notas_fiscais_inner") %></a></li>
-            </ul>
+               <li><a href="#"><%= link_to(I18n.t("search_document.index.table_of_contents.search_document"), "search_document#search_document_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("search_document.index.table_of_contents.custom"), "search_document#custom_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("search_document.index.table_of_contents.default"), "search_document#default_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("search_document.index.table_of_contents.contractor"), "search_document#contractor_inner") %></a></li>
+			</ul>
          </div>
       </div>
    </div>
@@ -104,21 +125,18 @@
    <!-- Configurações -->
    <div class="accordion-group">
       <div class="accordion-heading">
-         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseEight"  onclick="location.href = 'configuracoes'"> Configurações</a>
+         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseEight"  onclick="location.href = 'config'"> Configurações</a>
       </div>
-      <div id="collapseSeven" class="accordion-body collapse <%=is_group_active?("configuracoes") %>">
+      <div id="collapseSeven" class="accordion-body collapse <%=is_group_active?("config") %>">
          <div class="accordion-inner">
             <ul>
-               <li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.meus_dados"), "configuracoes#meus_dados_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.lista_produtos"), "configuracoes#lista_produtos_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.convidar_fornecedor"), "configuracoes#convidar_fornecedor_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.cadastro_local_atendimento"), "configuracoes#cadastro_local_atendimento_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.cadastro_prestador"), "configuracoes#cadastro_prestador_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.pesquisa_local_atendimento"), "configuracoes#pesquisa_local_atendimento_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.pesquisa_forncedor"), "configuracoes#pesquisa_forncedor_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.pesquisa_prestador"), "configuracoes#pesquisa_prestador_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.pesquisa_representante"), "configuracoes#pesquisa_representante_inner") %></a></li>
-               <!--<li><a href="#"><%= link_to(I18n.t("configuracoes.index.table_of_contents.manutencao_regioes"), "configuracoes#manutencao_regioes_inner") %></a></li> -->
+               <li><a href="#"><%= link_to(I18n.t("config.index.table_of_contents.config"), "config#config_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("config.index.table_of_contents.models"), "config#models_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("config.index.table_of_contents.types"), "config#types_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("config.index.table_of_contents.groups"), "config#groups_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("config.index.table_of_contents.departaments"), "config#departaments_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("config.index.table_of_contents.providers"), "config#providers_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("config.index.table_of_contents.webservices"), "config#webservices_inner") %></a></li>
             </ul>
          </div>
       </div>
@@ -127,17 +145,14 @@
    <!-- Logs -->
    <div class="accordion-group">
       <div class="accordion-heading">
-         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven" onclick="location.href = 'relatorios'"> Logs</a>
+         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven" onclick="location.href = 'logs'"> Logs</a>
       </div>
       <div id="collapseSix" class="accordion-body collapse <%=is_group_active?("logs") %>">
          <div class="accordion-inner">
             <ul>
-               <li><a href="#"><%= link_to(I18n.t("logs.index.table_of_contents.economia"), "logs#economia_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("logs.index.table_of_contents.produtos_vencidos"), "logs#produtos_vencidos_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("logs.index.table_of_contents.cotacao"), "logs#cotacao_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("logs.index.table_of_contents.faturamento"), "logs#faturamento_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("logs.index.table_of_contents.top_produtos"), "logs#top_produtos_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("logs.index.table_of_contents.top_fornecedores"), "logs#top_fornecedores_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("logs.index.table_of_contents.log"), "logs#log_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("logs.index.table_of_contents.drive"), "logs#drive_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("logs.index.table_of_contents.indexing"), "logs#indexing_inner") %></a></li>
             </ul>
          </div>
       </div>
@@ -146,20 +161,15 @@
    <!-- Documentos Expirados -->
    <div class="accordion-group">
       <div class="accordion-heading">
-         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven" onclick="location.href = 'relatorios'"> Documentos Expirados</a>
+         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven" onclick="location.href = 'expired_documents'"> Documentos Expirados</a>
       </div>
-      <div id="collapseSix" class="accordion-body collapse <%=is_group_active?("logs") %>">
+      <div id="collapseSix" class="accordion-body collapse <%=is_group_active?("expired_documents") %>">
          <div class="accordion-inner">
             <ul>
-               <li><a href="#"><%= link_to(I18n.t("documentos_expirados.index.table_of_contents.economia"), "documentos_expirados#economia_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("documentos_expirados.index.table_of_contents.produtos_vencidos"), "documentos_expirados#produtos_vencidos_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("documentos_expirados.index.table_of_contents.cotacao"), "documentos_expirados#cotacao_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("documentos_expirados.index.table_of_contents.faturamento"), "documentos_expirados#faturamento_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("documentos_expirados.index.table_of_contents.top_produtos"), "documentos_expirados#top_produtos_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("documentos_expirados.index.table_of_contents.top_fornecedores"), "documentos_expirados#top_fornecedores_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("expired_documents.index.table_of_contents.expired_documents"), "expired_documents#expired_documents_inner") %></a></li>
             </ul>
          </div>
       </div>
-   </div>
+   </div> 
    
 </div>

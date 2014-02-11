@@ -1,0 +1,87 @@
+<center>
+   <h1><%= I18n.t("search_document.index.title") %></h1>
+</center>
+<p class="more-info"><%= I18n.t("general.updated_at", :date => "07/11/2013") %></p>
+<h3><%= I18n.t("general.index") %></h3>
+
+
+<!--Indice -->
+<div class="metro-surface">
+	<center>
+		<table>
+			<tr>
+				<td>
+					<a href="#search_document_inner">
+						<div class="metro-tile "><%= I18n.t("search_document.index.table_of_contents.search_document") %></div>
+					</a>
+				</td>	 
+				<td>
+					<a href="#custom_inner">
+						<div class="metro-tile metro-tile-small"><%= I18n.t("search_document.index.table_of_contents.custom") %></div>
+				    </a>
+				</td>
+				<td>
+					<a href="#default_inner">
+						<div class="metro-tile metro-tile-small"><%= I18n.t("search_document.index.table_of_contents.default") %></div>
+				    </a>
+				</td>
+				<td>
+					<a href="#contractor_inner">
+						<div class="metro-tile "><%= I18n.t("search_document.index.table_of_contents.contractor") %></div>
+					</a>
+				</td>	
+			</tr>
+		</table>
+	</center>
+</div>
+
+
+<!-- search_document -->
+<div id ="search_document" > &nbsp </div>
+<h2 id="search_document_inner"><%= I18n.t("search_document.index.search_document.item_1") %></h2>
+<div class="row-fluid">
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("search_document.index.search_document.item_2") %></p>
+   <center><img src="/img/search_document/"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("search_document.index.search_document.item_3") %></p>
+</div>
+<br/><br/><br/><br/>
+
+
+<!-- custom -->
+<div id ="custom" > &nbsp </div>
+<h2 id="custom_inner"><%= I18n.t("search_document.index.custom.item_1") %></h2>
+<div class="row-fluid">
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("search_document.index.custom.item_2") %></p>
+   <center><img src="/img/search_document/"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("search_document.index.custom.item_3") %></p>
+</div>
+<br/><br/><br/><br/>
+
+
+<!-- default -->
+<div id ="default" > &nbsp </div>
+<h2 id="default_inner"><%= I18n.t("search_document.index.default.item_1") %></h2>
+<div class="row-fluid">
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("search_document.index.default.item_2") %></p>
+   <center><img src="/img/search_document/"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("search_document.index.default.item_3") %></p>
+</div>
+<br/><br/><br/><br/>
+
+
+<!-- contractor -->
+<div id ="contractor" > &nbsp </div>
+<h2 id="contractor_inner"><%= I18n.t("search_document.index.contractor.item_1") %></h2>
+<div class="row-fluid">
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("search_document.index.contractor.item_2") %></p>
+   <center><img src="/img/search_document/"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("search_document.index.contractor.item_3") %></p>
+</div>
+<br/><br/><br/><br/>
+
+
+<!--Botões -->
+<ul class="pager">
+   <li class="previous"><%= link_to("&larr; " + I18n.t("new_document.index.title"), "new_document") %></li>
+   <li class="next"><%= link_to(I18n.t("config.index.title") + " &rarr;", "config") %></li>
+</ul>

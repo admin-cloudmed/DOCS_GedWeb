@@ -11,7 +11,7 @@
 	   <table>
 		  <tr>
 			 <td>
-				<a href="#menu_main_inner">
+				<a href="#inner">
 				   <div class="metro-tile"><%= I18n.t("menu_main.index.table_of_contents.menu_main") %></div>
 				</a>
 			 </td>	 
@@ -21,13 +21,13 @@
 				</a>
 			 </td>
 			 <td>
-				<a href="#menu_main_main_inner">
-				   <div class="metro-tile "><%= I18n.t("menu_main.index.table_of_contents.menu_main_main") %></div>
+				<a href="#main_inner">
+				   <div class="metro-tile "><%= I18n.t("menu_main.index.table_of_contents.main") %></div>
 				</a>
 			 </td>
 			 <td>
-				<a href="#menu_main_new_document_inner">
-				   <div class="metro-tile "><%= I18n.t("menu_main.index.table_of_contents.menu_main_new_document") %></div>
+				<a href="#new_document_inner">
+				   <div class="metro-tile "><%= I18n.t("menu_main.index.table_of_contents.new_document") %></div>
 				</a>
 			 </td>	
 		  </tr>
@@ -35,23 +35,23 @@
 	   <table>
       <tr>
          <td>
-            <a href="#menu_main_search_document_inner">
-               <div class="metro-tile "><%= I18n.t("menu_main.index.table_of_contents.menu_main_search_document") %></div>
+            <a href="#search_document_inner">
+               <div class="metro-tile "><%= I18n.t("menu_main.index.table_of_contents.search_document") %></div>
             </a>
          </td>
          <td>
-            <a href="#menu_main_config_inner">
-               <div class="metro-tile  "><%= I18n.t("menu_main.index.table_of_contents.menu_main_config") %></div>
+            <a href="#config_inner">
+               <div class="metro-tile  "><%= I18n.t("menu_main.index.table_of_contents.config") %></div>
             </a>
          </td>
          <td>
-            <a href="#menu_main_logs_inner">
-               <div class="metro-tile metro-tile-small "><%= I18n.t("menu_main.index.table_of_contents.menu_main_logs") %></div>
+            <a href="#logs_inner">
+               <div class="metro-tile metro-tile-small "><%= I18n.t("menu_main.index.table_of_contents.logs") %></div>
             </a>
          </td>
          <td>
-            <a href="#menu_main_expired_documents_inner">
-               <div class="metro-tile "><%= I18n.t("menu_main.index.table_of_contents.menu_main_expired_documents") %></div>
+            <a href="#expired_documents_inner">
+               <div class="metro-tile "><%= I18n.t("menu_main.index.table_of_contents.expired_documents") %></div>
             </a>
          </td>
       </tr>
@@ -73,18 +73,18 @@
 
 
 <!--Principal-->
-<div id ="menu_main_main" > &nbsp </div>
-<h2 id="menu_main_main_inner"><%= I18n.t("menu_main.index.table_of_contents.menu_main_main") %></h2>
+<div id ="main" > &nbsp </div>
+<h2 id="main_inner"><%= I18n.t("menu_main.index.table_of_contents.main") %></h2>
 <div class="row-fluid">
    <center><img src="/img/menu_main/" /></center>
-   <p align="right" style="font-weight:bold;"><%= I18n.t("menu_main.index.menu_main_main.item_1") %></p>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("menu_main.index.main.item_1") %></p>
    <div class="metro-surface">
 	   <center>
 		   <table>
 			  <tr>
 				 <td>
 					<a href="">
-						<div class="metro-tile-fluxo  metro-tile-teal"><%= I18n.t("menu_main.index.table_of_contents.menu_main_main") %></div>
+						<div class="metro-tile-fluxo  metro-tile-teal"><%= I18n.t("menu_main.index.table_of_contents.main") %></div>
 					</a>
 				 </td>
 			  </tr>
@@ -96,18 +96,18 @@
 
 
 <!-- Novo Documento-->
-<div id ="menu_main_new_document" > &nbsp </div>
-<h2 id="menu_main_new_document_inner"><%= I18n.t("menu_main.index.table_of_contents.menu_main_new_document") %></h2>
+<div id ="new_document" > &nbsp </div>
+<h2 id="new_document_inner"><%= I18n.t("menu_main.index.table_of_contents.new_document") %></h2>
 <div class="row-fluid">
    <center><img src="/img/menu_main/" /></center>
-   <p align="right" style="font-weight:bold;"><%= I18n.t("menu_main.index.menu_main_new_document.item_1") %></p>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("menu_main.index.new_document.item_1") %></p>
    <div class="metro-surface">
 	   <center>
 		   <table>
 			  <tr>
 				 <td>
 					<a href="">
-						<div class="metro-tile-fluxo   metro-tile-teal"><%= I18n.t("menu_main.index.table_of_contents.menu_main_new_document") %></div>
+						<div class="metro-tile-fluxo   metro-tile-teal"><%= I18n.t("menu_main.index.table_of_contents.new_document") %></div>
 					</a>
 				 </td>
 			  </tr>
@@ -117,18 +117,18 @@
 </div>
 
 <!-- Localizar Documentos -->
-<div id ="menu_main_search_document" > &nbsp </div>
-<h2 id="menu_main_search_document_inner"><%= I18n.t("menu_main.index.table_of_contents.menu_main_search_document") %></h2>
+<div id ="search_document" > &nbsp </div>
+<h2 id="search_document_inner"><%= I18n.t("menu_main.index.table_of_contents.search_document") %></h2>
 <div class="row-fluid">
    <center><img src="/img/menu_main/" /></center>
-   <p align="right" style="font-weight:bold;"><%= I18n.t("menu_main.index.menu_main_search_document.item_1") %></p>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("menu_main.index.search_document.item_1") %></p>
    <div class="metro-surface">
 	   <center>
 		   <table>
 			  <tr>
 				 <td>
 					<a href="">
-						<div class="metro-tile-fluxo   metro-tile-teal"><%= I18n.t("menu_main.index.table_of_contents.menu_main_search_document") %></div>
+						<div class="metro-tile-fluxo   metro-tile-teal"><%= I18n.t("menu_main.index.table_of_contents.search_document") %></div>
 					</a>
 				 </td>
 			  </tr>
@@ -139,18 +139,18 @@
 
 
 <!-- Configurações -->
-<div id ="menu_main_config" > &nbsp </div>
-<h2 id="menu_main_config_inner"><%= I18n.t("menu_main.index.table_of_contents.menu_main_config") %></h2>
+<div id ="config" > &nbsp </div>
+<h2 id="config_inner"><%= I18n.t("menu_main.index.table_of_contents.config") %></h2>
 <div class="row-fluid">
    <center><img src="/img/menu_main/" /></center>
-   <p align="right" style="font-weight:bold;"><%= I18n.t("menu_main.index.menu_main_config.item_1") %></p>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("menu_main.index.config.item_1") %></p>
    <div class="metro-surface">
 	   <center>
 		   <table>
 			  <tr>
 				 <td>
 					<a href="">
-						<div class="metro-tile-fluxo   metro-tile-teal"><%= I18n.t("menu_main.index.table_of_contents.menu_main_config") %></div>
+						<div class="metro-tile-fluxo   metro-tile-teal"><%= I18n.t("menu_main.index.table_of_contents.config") %></div>
 					</a>
 				 </td>
 			  </tr>
@@ -161,18 +161,18 @@
 
 
 <!-- Logs -->
-<div id ="menu_main_logs" > &nbsp </div>
-<h2 id="menu_main_logs_inner"><%= I18n.t("menu_main.index.table_of_contents.menu_main_logs") %></h2>
+<div id ="logs" > &nbsp </div>
+<h2 id="logs_inner"><%= I18n.t("menu_main.index.table_of_contents.logs") %></h2>
 <div class="row-fluid">
    <center><img src="/img/menu_main/" /></center>
-   <p align="right" style="font-weight:bold;"><%= I18n.t("menu_main.index.table_of_contents.menu_main_logs") %></p>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("menu_main.index.table_of_contents.logs") %></p>
    <div class="metro-surface">
 	   <center>
 		   <table>
 			  <tr>
 				 <td>
 					<a href="">
-						<div class="metro-tile-fluxo   metro-tile-teal"><%= I18n.t("menu_main.index.table_of_contents.menu_main_logs") %></div>
+						<div class="metro-tile-fluxo   metro-tile-teal"><%= I18n.t("menu_main.index.table_of_contents.logs") %></div>
 					</a>
 				 </td>
 			  </tr>
@@ -184,18 +184,18 @@
 
 
 <!-- Documentos Expirados -->
-<div id ="menu_main_expired_documents" > &nbsp </div>
-<h2 id="menu_main_expired_documents_inner"><%= I18n.t("menu_main.index.table_of_contents.menu_main_expired_documents") %></h2>
+<div id ="expired_documents" > &nbsp </div>
+<h2 id="expired_documents_inner"><%= I18n.t("menu_main.index.table_of_contents.expired_documents") %></h2>
 <div class="row-fluid">
    <center><img src="/img/menu_main/" /></center>
-   <p align="right" style="font-weight:bold;"><%= I18n.t("menu_main.index.menu_main_expired_documents.item_1") %></p>
+   <p align="right" style="font-weight:bold;"><%= I18n.t("menu_main.index.expired_documents.item_1") %></p>
    <div class="metro-surface">
 	   <center>
 		   <table>
 			  <tr>
 				 <td>
 					<a href="">
-						<div class="metro-tile-fluxo   metro-tile-teal"><%= I18n.t("menu_main.index.table_of_contents.menu_main_expired_documents") %></div>
+						<div class="metro-tile-fluxo   metro-tile-teal"><%= I18n.t("menu_main.index.table_of_contents.logs.expired_documents") %></div>
 					</a>
 				 </td>
 			  </tr>

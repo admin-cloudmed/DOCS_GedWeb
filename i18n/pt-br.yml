@@ -69,27 +69,29 @@
       table_of_contents: 
         index: "Índice"
         menu_main: "Menu Principal"
-        menu_main_main: "Principal"
-        menu_main_new_document: "Novo Documento"
-        menu_main_search_document: "Localizar Documentos"
-        menu_main_config: "Configurações"
-        menu_main_logs: "Logs"
-        menu_main_expired_documents: "Documentos Expirados"
+        main: "Principal"
+        new_document: "Novo Documento"
+        search_document: "Localizar Documentos"
+        config: "Configurações"
+        logs: "Logs"
+        expired_documents: "Documentos Expirados"
       menu_main:
         item_1: "Abaixo você vê o menu principal do sistema. Ele sempre estará presente e visível no topo da tela, disponibilizando as ações para o usuário, de acordo com suas permissões previamente definidas."
         item_2: "Menu Principal"
         item_3: "Veja abaixo, disponibilizamos cada opção do menu principal para que você possa ir direto ao ponto que deseja :)"
-      menu_main_main:
+      main:
         item_1: "Principal/Mural"
-      menu_main_new_document:
+      new_document:
         item_1: "Novo Documento"
-      menu_main_search_document:
+      new_document_ged:
+        item_1: "Novo Documento Ged"
+      search_document:
         item_1: "Localizar Documentos"
-      menu_main_config:
+      config:
         item_1: "Configurações"
-      menu_main_logs:
+      logs:
         item_1: "Logs"
-      menu_main_expired_documents:
+      expired_documents:
         item_1: "Documentos Expirados"
   principal:
    index:
@@ -101,37 +103,166 @@
         item_1: "Menu > Principal"
         item_2: "Aqui será a tela de entrada do sistema, toda vez que você acessar o GedWeb (ou até mesmo o QuickIndex) você será redirecionado e visualizará essa página. Veja que ela contém as informações mais relevantes para o seu usuário no sistema. Além disso, logo abaixo apresentamos nosso mural, nele você visualiza as publicações feitas pela CloudMed, como informações úteis aos usuários, dicas e alertas. Dessa forma, ser informado fica rápido e prático! "
         item_3: "Principal/Mural"
-  menu_main_new_document:
+  new_document:
    index:
       title: "Novo Documento"
       table_of_contents: 
         index: "Índice"
-        menu_main_new_document: "Novo Documento"
+        new_document: "Novo Documento"
         step1: "1º Passo"
         step2: "2º Passo"
         step3: "3º Passo"
         step4: "4º Passo"
         step5: "5º Passo"
         step6: "6º Passo"
-      menu_main_new_document:
+      new_document:
         item_1: "Menu > Novo Documento"
-        item_2: "É aqui o primeiro passo para indexar manualmente um novo documento no GedWeb da CloudMed! Para facilitar seu entendimento, se você ainda não sabe o que são os 'Tipos de Documento' e os 'Modelos' clique nos links e olhe lá, esteja preparado para indexar qualquer tipo de documento no GedWeb."
+        item_2: "Vamos dar nosso primeiro passo para indexar manualmente um novo documento no GedWeb da CloudMed! Para facilitar o entendimento, se você ainda não conhece os 'Tipos de Documento' e os 'Modelos' clique nos links e olhe lá, esteja preparado para indexar qualquer tipo de documento no GedWeb."
       step1:
-        item_1: "Ao adicionar um novo documento, a primeira uestão que o GedWeb solicita é qual o 'Tipo de Documento' que você deseja indexar? Dependendo do tipo que você escolher, o GedWeb já carregará os campos previamente definidos e necessários referentes ao tipo escolhido, veja abaixo:"
+        item_1: "Ao adicionar um novo documento, o primeiro campo que o GedWeb solicita é o 'Tipo de Documento' que você deseja indexar. Esse campo trabalha com a função de 'autocompletar' e, dependendo do tipo que você escolher, o GedWeb já carregará os campos referentes ao tipo, veja abaixo:"
         item_2: "1º Passo - Tipo de Documento"
       step2:
-        item_1: "Preenchendo os campos requeridos pelo tipo de documento escolhido, o próximo passo agora é inserir o Título do Documento, lembramos que, se o tipo escolhido para o documento estiver relacionado à um modelo, e se nesse modelo estiver difinido algum campo como o Título do Documento, esse campo não será obrigatório, e, mesmo que seja preenchido, ele será substituido pelo campo definido no modelo."
+        item_1: "Preenchendo os campos requeridos pelo 'Tipo de Documento' escolhido, o próximo passo agora é inserir o Título do Documento, lembramos que, se o tipo escolhido para o documento estiver relacionado à um modelo, e se nesse modelo estiver difinido algum campo como o Título do Documento, esse campo não será obrigatório, e, mesmo que seja preenchido, ele será substituido pelo campo definido no modelo."
         item_2: "2º Passo - Título do Documento"
       step3:
-        item_1: "Nesse passo, informamos as datas referentes ao documento que está sendo indexado no sistema, dando destaque aos campos <b>'Data de criação do documento'</b> e <b>'Data da Digitalização'</b> que são obrigatórios. Repare também que temos o campo <b>'Este documento expira em'</b> onde colocamos a data em que esse documento irá expirar, com essa informação, conseguimos definir quantos dias antes da expiração o GedWeb irá notificar de tal evento."
+        item_1: "Nesse passo, informamos as datas referentes ao documento que está sendo indexado no sistema, dando destaque aos campos <b>'Data de criação do documento'</b> e <b>'Data da Digitalização'</b> que são obrigatórios. Repare também que temos o campo <b>'Este documento expira em'</b> onde colocamos a data em que esse documento irá expirar, com essa informação, conseguimos definir quantos dias antes da expiração o GedWeb irá nos notificar por e-mail de tal evento."
         item_2: "3º Passo - Datas"
       step4:
-        item_1: "Agora definiremos o grupo que esse documento a ser anexado pertence, para saber melhor como funciona os grupos clique aqui. Por exemplo, o arquivo de uma nota fiscal de certo fornecedor pode muito bem pertencer ao grupo 'Financeiro/Fornecedores/NotasFiscais/Nomefornecedor' não? Entendendo o que é e como funciona os Grupos, você sabera corretamente qual grupo o documento anexado pertence ;)"
+        item_1: "Agora definiremos o grupo que esse documento a ser anexado pertence, para saber melhor como funciona os grupos clique aqui. Por exemplo, o arquivo de uma nota fiscal de certo fornecedor pode muito bem pertencer ao grupo <b>'Financeiro/Fornecedores/NotasFiscais/NomeFornecedor'</b> não? Entendendo o que é e como funciona os Grupos, você saberá corretamente em qual grupo o documento pode ser anexado ;)"
         item_2: "4º Passo - Grupo"
       step5:
-        item_1: "Esse passo é de grande e extrema importância para o documento que está à ser indexado no sistema, aqui definiremos qual será a confidencialidade (publico ou privado) e também definiremos quais os departamentos da empresa ao qual esse documento pertence e estará visivel. Também tmos a caixa <b>'Permitir Download por Terceiros'</b> que bloqueia ou não o download do arquivo por outras pessoas a não ser quem indexou"
+        item_1: "Esse passo é de grande e extrema importância para o documento que está à ser indexado no sistema, aqui definiremos qual será a confidencialidade (publico ou privado) do documento. Também temos a caixa <b>'Permitir Download por Terceiros'</b> que bloqueia ou não o download do arquivo por outras pessoas a não você quem indexou .Por fim, também definiremos quais os departamentos da empresa ao qual esse documento pertence e estará visível."
         item_2: "5º Passo - Destinação/Confidencialidade"
       step6:
-        item_1: "Concluindo, temos a opção <b>'Campos Opcionais'</b> que libera ou não o campos adicionais e relevantes para a indexação desse documento, clique e veja a variedade de campos que são opcionais, mas, muito relevantes para a indexação do documento (Lembramos que, quanto mais informações adicionarmos ao indexar um documento, mais a ferramenta fica inteligente e saberá disponibilizar o documento anexo quando necessário). Para finalizar, o que devemos fazer é informar e carregar o arquivo que irá ser indexado, clique em <b>'Escolher arquivo'</b> e, nã caixa que abrir, escolha o arquivo desejado e clique em OK"
-        item_2: "6º Passo - Campos Opcionais / Seleção do documento"
+        item_1: "Concluindo, temos a opção <b>'Campos Opcionais'</b> que libera ou não o campos adicionais e relevantes para a indexação desse documento, clique e veja a variedade de campos que são opcionais, mas, muito relevantes para a indexação do documento (Lembramos que, quanto mais informações adicionarmos ao indexar um documento, mais a ferramenta fica inteligente e saberá disponibilizar o documento anexo quando necessário). Para finalizar, o que devemos fazer é informar e carregar o arquivo que irá ser indexado, clique em <b>'Escolher arquivo'</b> e, nã caixa que abrir, escolha o arquivo desejado e clique em <b>OK</b>"
+        item_2: "6º Passo - Opcionais/Seleção do documento"
         item_3: "Aguade o processo se completar e Pronto! Já temos nosso documento indexado no GedWeb, contanto com toda sua segurança na nuvem :)"
+  new_document_ged:
+   index:
+      title: "Novo Documento"
+      table_of_contents: 
+        index: "Índice"
+        new_document_ged: "Novo Documento"
+        step1: "1º Passo"
+        step2: "2º Passo"
+        step3: "3º Passo"
+        step4: "4º Passo"
+        step5: "5º Passo"
+        step6: "6º Passo"
+      new_document_ged:
+        item_1: "Menu > Novo Documento"
+        item_2: "Vamos dar nosso primeiro passo para indexar manualmente um novo documento no GedWeb da CloudMed! Para facilitar o entendimento, se você ainda não conhece os 'Tipos de Documento' e os 'Modelos' clique nos links e olhe lá, esteja preparado para indexar qualquer tipo de documento no GedWeb."
+      step1:
+        item_1: "Ao adicionar um novo documento, o primeiro campo que o GedWeb solicita é o 'Tipo de Documento' que você deseja indexar. Esse campo trabalha com a função de 'autocompletar' e, dependendo do tipo que você escolher, o GedWeb já carregará os campos referentes ao tipo, veja abaixo:"
+        item_2: "1º Passo - Tipo de Documento"
+      step2:
+        item_1: "Preenchendo os campos requeridos pelo 'Tipo de Documento' escolhido, o próximo passo agora é inserir o Título do Documento, lembramos que, se o tipo escolhido para o documento estiver relacionado à um modelo, e se nesse modelo estiver difinido algum campo como o Título do Documento, esse campo não será obrigatório, e, mesmo que seja preenchido, ele será substituido pelo campo definido no modelo."
+        item_2: "2º Passo - Título do Documento"
+      step3:
+        item_1: "Nesse passo, informamos as datas referentes ao documento que está sendo indexado no sistema, dando destaque aos campos <b>'Data de criação do documento'</b> e <b>'Data da Digitalização'</b> que são obrigatórios. Repare também que temos o campo <b>'Este documento expira em'</b> onde colocamos a data em que esse documento irá expirar, com essa informação, conseguimos definir quantos dias antes da expiração o GedWeb irá nos notificar por e-mail de tal evento."
+        item_2: "3º Passo - Datas"
+      step4:
+        item_1: "Agora definiremos o grupo que esse documento a ser anexado pertence, para saber melhor como funciona os grupos clique aqui. Por exemplo, o arquivo de uma nota fiscal de certo fornecedor pode muito bem pertencer ao grupo <b>'Financeiro/Fornecedores/NotasFiscais/NomeFornecedor'</b> não? Entendendo o que é e como funciona os Grupos, você saberá corretamente em qual grupo o documento pode ser anexado ;)"
+        item_2: "4º Passo - Grupo"
+      step5:
+        item_1: "Esse passo é de grande e extrema importância para o documento que está à ser indexado no sistema, aqui definiremos qual será a confidencialidade (publico ou privado) do documento. Também temos a caixa <b>'Permitir Download por Terceiros'</b> que bloqueia ou não o download do arquivo por outras pessoas a não você quem indexou .Por fim, também definiremos quais os departamentos da empresa ao qual esse documento pertence e estará visível."
+        item_2: "5º Passo - Destinação/Confidencialidade"
+      step6:
+        item_1: "Concluindo, temos a opção <b>'Campos Opcionais'</b> que libera ou não o campos adicionais e relevantes para a indexação desse documento, clique e veja a variedade de campos que são opcionais, mas, muito relevantes para a indexação do documento (Lembramos que, quanto mais informações adicionarmos ao indexar um documento, mais a ferramenta fica inteligente e saberá disponibilizar o documento anexo quando necessário). Para finalizar, o que devemos fazer é informar e carregar o arquivo que irá ser indexado, clique em <b>'Escolher arquivo'</b> e, nã caixa que abrir, escolha o arquivo desejado e clique em <b>OK</b>"
+        item_2: "6º Passo - Opcionais/Seleção do documento"
+        item_3: "Aguade o processo se completar e Pronto! Já temos nosso documento indexado no GedWeb, contanto com toda sua segurança na nuvem :)"
+  search_document:
+   index:
+      title: "Localizar Documento"
+      table_of_contents: 
+        index: "Índice"
+        search_document: "Localizar Documento"
+        custom: "Personalizado"
+        default: "Padrão"
+        contractor: "Empresas Contratantes"
+      search_document:
+        item_1: "Menu > Localizar Documento"
+        item_2: "conteúdo"
+        item_3: "Localizar Documento"
+      custom:
+        item_1: "Localizar Documento > Personalizado"
+        item_2: "conteúdo"
+        item_3: "Personalizado"
+      default:
+        item_1: "Localizar Documento > Padrão"
+        item_2: "Conteúdo"
+        item_3: "Padrão"
+      contractor:
+        item_1: "Localizar Documento > Empresas Contratantes"
+        item_2: "conteúdo"
+        item_3: "Empresas Contratantes"
+  config:
+   index:
+      title: "Configurações"
+      table_of_contents: 
+        index: "Índice"
+        config: "Configurações"
+        models: "Modelos"
+        types: "Tipos"
+        groups: "Grupos"
+        departaments: "Departamentos"
+        providers: "Prestadores"
+        webservices: "WebServices"
+      config:
+        item_1: "Menu > Configurações"
+        item_2: "conteúdo"
+        item_3: "Configurações"
+      models:
+        item_1: "Menu > Modelos"
+        item_2: "conteúdo"
+        item_3: "Modelos"
+      types:
+        item_1: "Menu > Tipos"
+        item_2: "conteúdo"
+        item_3: "Tipos"
+      groups:
+        item_1: "Menu > Grupos"
+        item_2: "conteúdo"
+        item_3: "Grupos"
+      departaments:
+        item_1: "Menu > Departamentos"
+        item_2: "conteúdo"
+        item_3: "Departamentos"
+      providers:
+        item_1: "Menu > Prestadores"
+        item_2: "conteúdo"
+        item_3: "Prestadores"
+      webservices:
+        item_1: "Menu > WebServices"
+        item_2: "conteúdo"
+        item_3: "WebServices"
+  logs:
+   index:
+      title: "Logs"
+      table_of_contents: 
+        index: "Índice"
+        log: "Logs"
+        drive: "Movimentação"
+        indexing: "Indexação"
+      log:
+        item_1: "Menu > Logs"
+        item_2: "conteúdo"
+        item_3: "Logs"
+      drive:
+        item_1: "Menu > Movimentação"
+        item_2: "conteúdo"
+        item_3: "Movimentação"
+      indexing:
+        item_1: "Menu > Indexação"
+        item_2: "conteúdo"
+        item_3: "Indexação"
+  expired_documents:
+   index:
+      title: "Documentos Expirados"
+      table_of_contents: 
+        index: "Índice"
+        expired_documents: "Documentos Expirados"
+      expired_documents:
+        item_1: "Menu > Documentos Expirados"
+        item_2: "conteúdo"
+        item_3: "Documentos Expirados"

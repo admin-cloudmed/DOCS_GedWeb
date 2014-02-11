@@ -1,0 +1,39 @@
+<center>
+   <h1><%= I18n.t("expired_documents.index.title") %></h1>
+</center>
+<p class="more-info"><%= I18n.t("general.updated_at", :date => "07/11/2013") %></p>
+<h3><%= I18n.t("general.index") %></h3>
+
+
+<!--Indice -->
+<div class="metro-surface">
+	<center>
+		<table>
+			<tr>
+				<td>
+					<a href="#expired_documents_inner">
+						<div class="metro-tile "><%= I18n.t("expired_documents.index.table_of_contents.expired_documents") %></div>
+					</a>
+				</td>	 
+			</tr>
+		</table>
+	</center>
+</div>
+
+
+<!-- expired_documents -->
+<div id ="expired_documents" > &nbsp </div>
+<h2 id="expired_documents_inner"><%= I18n.t("expired_documents.index.expired_documents.item_1") %></h2>
+<div class="row-fluid">
+   <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("expired_documents.index.expired_documents.item_2") %></p>
+   <center><img src="/img/expired_documents/"  /></center>
+   <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("expired_documents.index.expired_documents.item_3") %></p>
+</div>
+<br/><br/><br/><br/>
+
+
+<!--Botões -->
+<ul class="pager">
+   <li class="previous"><%= link_to("&larr; " + I18n.t("logs.index.title"), "logs") %></li>
+   <li class="next"><%= link_to(I18n.t("gedweb.index.title") + " &rarr;", "gedweb") %></li>
+</ul>

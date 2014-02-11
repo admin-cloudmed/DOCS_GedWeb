@@ -32,8 +32,16 @@ navigation = [
   { "url" => "menu_main",             "view_path" => "menu_main/index"},
 # Principal
   { "url" => "principal",             "view_path" => "principal/index"},
-# Principal
+# Novo Documento
   { "url" => "new_document",             "view_path" => "new_document/index"},
+# Localizar Documento
+  { "url" => "search_document",             "view_path" => "search_document/index"},
+# Configurações
+  { "url" => "config",             "view_path" => "config/index"},
+# Logs
+  { "url" => "logs",             "view_path" => "logs/index"},
+# Docmentos Expirados
+  { "url" => "expired_documents",             "view_path" => "expired_documents/index"},
 ]
 
 navigation.each do |item|
