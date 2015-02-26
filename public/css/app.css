@@ -178,7 +178,7 @@ h1 {
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 300;
-	color: #333;
+	color: #450844;
 }
 
 h2 {
@@ -188,7 +188,7 @@ h2 {
 	border-bottom-color: #DDD;
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
-	color: #546872;
+	color: #450844;
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-style: normal;
 	font-variant: normal;
@@ -215,7 +215,7 @@ h4 {
 	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 
 	font-size: 14px;
-	color: #444;
+	color: #450844;
 	font-style: normal;
 	font-variant: normal;
 }
@@ -237,11 +237,17 @@ p{
 
 
 ol.table-of-contents{
-	margin-left: 20px;
+	margin-left: 20px
+    color:#450844;
 }
 
 
-.pager { margin: 40px 0; font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;}
+.pager { margin: 40px 0; font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.page .next {
+    
+}
 
 span.code {
 	font-family:  "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
@@ -385,9 +391,11 @@ div#banner{
 }
 .accordion-group{
 	margin-bottom: 7px;
+    border-color:#DFCEE3;
 }
 
 .accordion-heading a{
+    border-radius: 10px;
 	font-weight: normal;
 	text-decoration: none;
 	background-color:#DFCEE3;
@@ -397,6 +405,8 @@ div#banner{
 	height: 13px;
 }
 .accordion-inner {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	background-color:white;
 }
@@ -638,11 +648,11 @@ p.note {
 	transition: 0.1s all;
 }
 .metro-tile-fluxo {
-	background-color: #446FB1;
-	border-color: #446FB1;
+	background-color: #450844;
+	border-color: #450844;
 	width: 150px;
 	height: 40px;
-	padding: 5px;
+	padding: 0px;
 	color: #FFF;
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	font-size: 12px;
@@ -692,8 +702,9 @@ div.metro-tile-fluxo:hover {
 	border-color: #B91D47;;
 }
 .metro-tile-teal {
- background-color: #00ABA9;
-	border-color: #00ABA9;;
+ background-color: #450844;
+	border-color: #450844;
+    padding: 0px;
 }
 .metro-tile-orange {
  background-color: #F09609;

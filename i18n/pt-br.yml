@@ -1,4 +1,4 @@
-﻿"pt-BR":
+"pt-BR":
   main_menu:
     home: "Início"
     docs: "Documentação GedWeb"
@@ -119,24 +119,28 @@
         item_1: "Menu > Novo Documento"
         item_2: "Vamos dar nosso primeiro passo para indexar manualmente um novo documento no GedWeb da CloudMed! Para facilitar o entendimento, se você ainda não conhece os 'Tipos de Documento' e os 'Modelos' clique nos links e olhe lá, esteja preparado para indexar qualquer tipo de documento no GedWeb."
       step1:
-        item_1: "Ao adicionar um novo documento, o primeiro campo que o GedWeb solicita é o 'Tipo de Documento' que você deseja indexar. Esse campo trabalha com a função de 'autocompletar' e, dependendo do tipo que você escolher, o GedWeb já carregará os campos referentes ao tipo, veja abaixo:"
+        item_1: "Ao adicionar um novo documento, o primeiro campo que o GedWeb solicita é o 'Tipo de Documento' que você deseja indexar. Esse campo trabalha com a função de 'autocompletar' e, dependendo do tipo que você escolher, o GedWeb já carregará os campos referentes ao tipo, ou sejá, os campos para preenchimento podem variar dependendo do modelo escolhido, veja abaixo:"
         item_2: "1º Passo - Tipo de Documento"
       step2:
         item_1: "Preenchendo os campos requeridos pelo 'Tipo de Documento' escolhido, o próximo passo agora é inserir o Título do Documento, lembramos que, se o tipo escolhido para o documento estiver relacionado à um modelo, e se nesse modelo estiver difinido algum campo como o Título do Documento, esse campo não será obrigatório, e, mesmo que seja preenchido, ele será substituido pelo campo definido no modelo."
         item_2: "2º Passo - Título do Documento"
+        item_3: "Veja que ao selecionar o tipo do documento, caso tenha algum <a href='config#models' class='external'>modelo</a> pré-estabelecido, os campos aparecerão e com a cor azul:"
       step3:
         item_1: "Nesse passo, informamos as datas referentes ao documento que está sendo indexado no sistema, dando destaque aos campos <b>'Data de criação do documento'</b> e <b>'Data da Digitalização'</b> que são obrigatórios. Repare também que temos o campo <b>'Este documento expira em'</b> onde colocamos a data em que esse documento irá expirar, com essa informação, conseguimos definir quantos dias antes da expiração o GedWeb irá nos notificar por e-mail de tal evento."
+        item_4: "Data da Digitalização"
+        item_3: "Data de quando o documento irá expirar"
         item_2: "3º Passo - Datas"
       step4:
-        item_1: "Agora definiremos o grupo que esse documento a ser anexado pertence, para saber melhor como funciona os grupos clique aqui. Por exemplo, o arquivo de uma nota fiscal de certo fornecedor pode muito bem pertencer ao grupo <b>'Financeiro/Fornecedores/NotasFiscais/NomeFornecedor'</b> não? Entendendo o que é e como funciona os Grupos, você saberá corretamente em qual grupo o documento pode ser anexado ;)"
+        item_1: "Agora definiremos o grupo que esse documento a ser anexado pertence, para saber melhor como funciona os grupos <a href='config#groups'> clique aqui</a>. Por exemplo, o arquivo de uma nota fiscal de certo fornecedor pode muito bem pertencer ao grupo <b>'Financeiro/Fornecedores/NotasFiscais/NomeFornecedor'</b> não? Entendendo o que é e como funciona os Grupos, você saberá corretamente em qual grupo o documento pode ser anexado."
         item_2: "4º Passo - Grupo"
       step5:
-        item_1: "Esse passo é de grande e extrema importância para o documento que está à ser indexado no sistema, aqui definiremos qual será a confidencialidade (publico ou privado) do documento. Também temos a caixa <b>'Permitir Download por Terceiros'</b> que bloqueia ou não o download do arquivo por outras pessoas a não você quem indexou .Por fim, também definiremos quais os departamentos da empresa ao qual esse documento pertence e estará visível."
+        item_1: "Esse passo é de grande e extrema importância para o documento que está à ser indexado no sistema, aqui definiremos qual será a confidencialidade (público ou privado) do documento. Também temos a caixa <b>'Permitir Download por Terceiros'</b> que bloqueia ou não o download do arquivo por outras pessoas além de quem indexou. Por fim, também definiremos quais os departamentos da empresa ao qual esse documento pertence e estará visível."
         item_2: "5º Passo - Destinação/Confidencialidade"
       step6:
-        item_1: "Concluindo, temos a opção <b>'Campos Opcionais'</b> que libera ou não o campos adicionais e relevantes para a indexação desse documento, clique e veja a variedade de campos que são opcionais, mas, muito relevantes para a indexação do documento (Lembramos que, quanto mais informações adicionarmos ao indexar um documento, mais a ferramenta fica inteligente e saberá disponibilizar o documento anexo quando necessário). Para finalizar, o que devemos fazer é informar e carregar o arquivo que irá ser indexado, clique em <b>'Escolher arquivo'</b> e, nã caixa que abrir, escolha o arquivo desejado e clique em <b>OK</b>"
+        item_1: "Concluindo, temos a opção <b>'Campos Opcionais'</b> que libera ou não campos adicionais e relevantes para a indexação desse documento, clique no checkbox e veja a variedade de campos que são opcionais, mas, muito relevantes para a indexação do documento (Lembramos que, quanto mais informações adicionarmos ao indexar um documento, mais a ferramenta ficará inteligente e saberá disponibilizar o documento anexo quando necessário)."
+        item_5: "Para finalizar, o que devemos fazer é informar e carregar o arquivo que irá ser indexado, clique em <b>'Escolher arquivo'</b> e, escolha o arquivo desejado na caixa de abrir e clique em <b>OK</b>."
         item_2: "6º Passo - Opcionais/Seleção do documento"
-        item_3: "Aguade o processo se completar e Pronto! Já temos nosso documento indexado no GedWeb, contanto com toda sua segurança na nuvem :)"
+        item_4: "Aguade o processo se completar e Pronto! Já temos nosso documento indexado no GedWeb, contando com toda sua segurança na nuvem."
   new_document_ged:
    index:
       title: "Novo Documento"
@@ -168,9 +172,9 @@
         item_1: "Esse passo é de grande e extrema importância para o documento que está à ser indexado no sistema, aqui definiremos qual será a confidencialidade (publico ou privado) do documento. Também temos a caixa <b>'Permitir Download por Terceiros'</b> que bloqueia ou não o download do arquivo por outras pessoas a não você quem indexou .Por fim, também definiremos quais os departamentos da empresa ao qual esse documento pertence e estará visível."
         item_2: "5º Passo - Destinação/Confidencialidade"
       step6:
-        item_1: "Concluindo, temos a opção <b>'Campos Opcionais'</b> que libera ou não o campos adicionais e relevantes para a indexação desse documento, clique e veja a variedade de campos que são opcionais, mas, muito relevantes para a indexação do documento (Lembramos que, quanto mais informações adicionarmos ao indexar um documento, mais a ferramenta fica inteligente e saberá disponibilizar o documento anexo quando necessário). Para finalizar, o que devemos fazer é informar e carregar o arquivo que irá ser indexado, clique em <b>'Escolher arquivo'</b> e, nã caixa que abrir, escolha o arquivo desejado e clique em <b>OK</b>"
+        item_1: "Concluindo, temos a opção <b>'Campos Opcionais'</b> que libera ou não o campos adicionais e relevantes para a indexação desse documento, clique e veja a variedade de campos que são opcionais, mas, muito relevantes para a indexação do documento (Lembramos que, quanto mais informações adicionarmos ao indexar um documento, mais a ferramenta ficará inteligente e saberá disponibilizar o documento anexo quando necessário). Para finalizar, o que devemos fazer é informar e carregar o arquivo que irá ser indexado, clique em <b>'Escolher arquivo'</b> e, na caixa que abrir, escolha o arquivo desejado e clique em <b>OK</b>"
         item_2: "6º Passo - Opcionais/Seleção do documento"
-        item_3: "Aguade o processo se completar e Pronto! Já temos nosso documento indexado no GedWeb, contanto com toda sua segurança na nuvem :)"
+        item_3: "Aguade o processo se completar e Pronto! Já temos nosso documento indexado no GedWeb, contando com toda sua segurança na nuvem."
   search_document:
    index:
       title: "Localizar Documento"
@@ -182,20 +186,18 @@
         contractor: "Empresas Contratantes"
       search_document:
         item_1: "Menu > Localizar Documento"
-        item_2: "conteúdo"
+        item_2: "Agora vamos conhecer a ferramenta de localização dos documentos indexados pelo GedWeb."
         item_3: "Localizar Documento"
       custom:
         item_1: "Localizar Documento > Personalizado"
-        item_2: "conteúdo"
+        item_2: "Nesta parte podemos realizar pesquisas de acordo com os modelos de documentos cadastrados no sistema. Basta selecionar o modelo do documento a ser pesquisado, que as informações pertinentes para pesquisa serão mostradas na tela."
         item_3: "Personalizado"
       default:
         item_1: "Localizar Documento > Padrão"
-        item_2: "Conteúdo"
+        item_2: "Nesta etapa vamos localizar o documento que foi indexado sem algum modelo. Podemos realizar a pesquisa de acordo com diversos parâmetros que possam facilitar a busca. Caso não saiba o que é modelo, <a href='config#models'> clique aqui</a>."
+        item_4: "Podemos também realizar a localização através de Dados Complementares. Para isso clicamos no checkbox 'Pesquisa por Dados Complementares'. É de suma importância que ao indexar algum documento, o usuário informe a maior quantidade de informação possível, para facilitar a localização."
+        item_5: "Também é possível pesquisar os documentos através das datas fornecidas no indexamento do documento a ser pesquisado. Para isso utilizamos a 'Pesquisa por Datas':"
         item_3: "Padrão"
-      contractor:
-        item_1: "Localizar Documento > Empresas Contratantes"
-        item_2: "conteúdo"
-        item_3: "Empresas Contratantes"
   config:
    index:
       title: "Configurações"
@@ -210,11 +212,13 @@
         webservices: "WebServices"
       config:
         item_1: "Menu > Configurações"
-        item_2: "conteúdo"
+        item_2: "Agora vamos mostrar a parte de configuração do GedWeb. É neste menu que vamos inserir, excluir, alterar configurações de Modelos, Tipos, Grupos, Departamentos, Prestadores e WebServices."
         item_3: "Configurações"
       models:
         item_1: "Menu > Modelos"
-        item_2: "conteúdo"
+        item_2: "Esta é a tela inicial da Configurações > Modelos. Aqui você poderá criar novos modelos, visualizar e alterá-los. Caso você tenha cadastrado algum modelo previamente, este aparecerá na tabela abaixo. Para acessar as configurações do modelo desejado, basta clicar sobre seu nome."
+        item_4: "Para cadastrar um novo modelo, basta clicar no botão Novo Modelo:"
+        item_5: "Esta é a tela de cadastro de novos modelos."
         item_3: "Modelos"
       types:
         item_1: "Menu > Tipos"

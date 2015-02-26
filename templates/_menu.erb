@@ -68,7 +68,7 @@
    <!-- Novo Documento -->
    <div class="accordion-group">
       <div class="accordion-heading">
-         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive"  onclick="location.href = 'new_document'"> Novo Documento</a>
+         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive"  onclick="location.href = 'new_document'"> Novo Documento </a>
       </div>
       <div id="collapseFour" class="accordion-body collapse <%=is_group_active?("new_document") %>">
          <div class="accordion-inner">
@@ -85,25 +85,6 @@
       </div>
    </div>
    
-   <!-- Novo Documento Ged-->
-   <div class="accordion-group">
-      <div class="accordion-heading">
-         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseFive"  onclick="location.href = 'new_document_ged'"> Novo Documento</a>
-      </div>
-      <div id="collapseFour" class="accordion-body collapse <%=is_group_active?("new_document_ged") %>">
-         <div class="accordion-inner">
-            <ul>
-               <li><a href="#new_document_ged"><%= link_to(I18n.t("new_document_ged.index.table_of_contents.new_document_ged"), "new_document_ged#new_document_inner") %></a></li>
-               <li><a href="#step1"><%= link_to(I18n.t("new_document_ged.index.step1.item_2"), "new_document_ged#step1_inner") %></a></li>
-               <li><a href="#step2"><%= link_to(I18n.t("new_document_ged.index.step2.item_2"), "new_document_ged#step2_inner") %></a></li>
-               <li><a href="#step3"><%= link_to(I18n.t("new_document_ged.index.step3.item_2"), "new_document_ged#step3_inner") %></a></li>
-               <li><a href="#step4"><%= link_to(I18n.t("new_document_ged.index.step4.item_2"), "new_document_ged#step4_inner") %></a></li>
-               <li><a href="#step5"><%= link_to(I18n.t("new_document_ged.index.step5.item_2"), "new_document_ged#step5_inner") %></a></li>
-               <li><a href="#step6"><%= link_to(I18n.t("new_document_ged.index.step6.item_2"), "new_document_ged#step6_inner") %></a></li>
-            </ul>
-         </div>
-      </div>
-   </div>
    
    <!-- Localizar Documentos -->
    <div class="accordion-group">
@@ -114,9 +95,8 @@
          <div class="accordion-inner">
             <ul>
                <li><a href="#"><%= link_to(I18n.t("search_document.index.table_of_contents.search_document"), "search_document#search_document_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("search_document.index.table_of_contents.custom"), "search_document#custom_inner") %></a></li>
                <li><a href="#"><%= link_to(I18n.t("search_document.index.table_of_contents.default"), "search_document#default_inner") %></a></li>
-               <li><a href="#"><%= link_to(I18n.t("search_document.index.table_of_contents.contractor"), "search_document#contractor_inner") %></a></li>
+               <li><a href="#"><%= link_to(I18n.t("search_document.index.table_of_contents.custom"), "search_document#custom_inner") %></a></li>
 			</ul>
          </div>
       </div>
