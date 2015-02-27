@@ -1,0 +1,13 @@
+[1mdiff --git a/templates/principal/index.erb b/templates/principal/index.erb[m
+[1mindex 0969b2a..12eb4bc 100644[m
+[1m--- a/templates/principal/index.erb[m
+[1m+++ b/templates/principal/index.erb[m
+[36m@@ -26,7 +26,7 @@[m
+ <div id ="principal" > &nbsp </div>[m
+ <h2 id="principal_inner"><%= I18n.t("principal.index.table_of_contents.principal") %></h2>[m
+ <div class="row-fluid">[m
+[31m-   <center><img width="90%" src="/img/menuprincipal/tela1.jpg"  /></center>[m
+[32m+[m[32m   <center><img width="90%" src="/img/menuprincipal/tela1.jpg"/></center>[m
+    <p align="right" style="font-weight:bold;font-size:small;margin-right:2cm;"><%= I18n.t("principal.index.principal.item_1") %></p>[m
+    <br/><br/>[m
+    <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("principal.index.principal.item_2") %></p>[m
