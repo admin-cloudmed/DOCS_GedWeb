@@ -42,6 +42,8 @@ navigation = [
   { "url" => "logs",             "view_path" => "logs/index"},
 # Docmentos Expirados
   { "url" => "expired_documents",             "view_path" => "expired_documents/index"},
+ # QuickIndex
+  { "url" => "quickindex",             "view_path" => "quickindex/index"},
 ]
 
 navigation.each do |item|

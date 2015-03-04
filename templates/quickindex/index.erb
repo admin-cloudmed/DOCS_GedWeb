@@ -1,0 +1,39 @@
+<center>
+   <h1><%= I18n.t("search_document.index.title") %></h1>
+</center>
+<p class="more-info"><%= I18n.t("general.updated_at", :date => "07/11/2013") %></p>
+<h3><%= I18n.t("general.index") %></h3>
+
+
+<!--Indice -->
+<div class="metro-surface">
+	<center>
+		<table>
+			<tr>
+				<td>
+					<a href="#search_document_inner">
+						<div class="metro-tile "><%= I18n.t("search_document.index.table_of_contents.search_document") %></div>
+					</a>
+				</td>
+				<td>
+					<a href="#default_inner">
+						<div class="metro-tile metro-tile-small"><%= I18n.t("search_document.index.table_of_contents.default") %></div>
+				    </a>
+				</td>
+				<td>
+					<a href="#custom_inner">
+						<div class="metro-tile metro-tile-small"><%= I18n.t("search_document.index.table_of_contents.custom") %></div>
+				    </a>
+				</td>
+			</tr>
+		</table>
+	</center>
+</div>
+
+
+
+<!--Botões -->
+<ul class="pager">
+   <li class="previous"><%= link_to("&larr; " + I18n.t("new_document.index.title"), "new_document") %></li>
+   <li class="next"><%= link_to(I18n.t("config.index.title") + " &rarr;", "config") %></li>
+</ul>

@@ -152,4 +152,17 @@
       </div>
    </div> 
    
+   <!-- Quick Index -->
+   <div class="accordion-group">
+      <div class="accordion-heading">
+         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseSeven" onclick="location.href = 'quickindex'">QuickIndex</a>
+      </div>
+      <div id="collapseSix" class="accordion-body collapse <%=is_group_active?("quickindex") %>">
+         <div class="accordion-inner">
+            <ul>
+               <li><a href="#"><%= link_to(I18n.t("quickindex.index.table_of_contents.quickindex"), "quickindex#quickindex_inner") %></a></li>
+            </ul>
+         </div>
+      </div>
+   </div> 
 </div>

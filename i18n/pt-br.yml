@@ -287,3 +287,7 @@
         item_1: "Menu > Documentos Expirados"
         item_2: "conteúdo"
         item_3: "Documentos Expirados"
+quickindex:
+    index:
+        table_of_contents:
+        quickindex: "QuickIndex"
