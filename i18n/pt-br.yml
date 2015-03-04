@@ -93,6 +93,8 @@
         item_1: "Logs"
       expired_documents:
         item_1: "Documentos Expirados"
+      quickindex:
+        item_1: "QuickIndex"
   principal:
    index:
       title: "Principal"
@@ -287,7 +289,34 @@
         item_1: "Menu > Documentos Expirados"
         item_2: "conteúdo"
         item_3: "Documentos Expirados"
-quickindex:
-    index:
-        table_of_contents:
+  quickindex:
+   index:
+      title: "QuickIndex"
+      table_of_contents: 
+        index: "Índice"
         quickindex: "QuickIndex"
+        about: "Sobre"
+        config: "Configurações"
+        contasmedicas: "Contas Médicas"
+        smartindex: "SmartIndex"
+        logs: "Logs"
+      quickindex:
+        item_1: "quickindex item_1"
+        item_2: "quickindex item_2"
+        item_3: "quickindex item_3"
+      about:
+        item_1: "aboutitem_1"
+        item_2: "aboutitem_2"
+      config:
+        item_1: "configitem_1"
+        item_2: "configitem_2"
+      contasmedicas:
+        item_1: "contasmedicasitem_1"
+        item_2: "contasmedicasitem_2"
+      smartindex:
+        item_1: "smartindexitem_1"
+        item_2: "smartindexitem_2"
+      logs:
+        item_1: "logsitem_1"
+        item_2: "logsitem_2"
+  

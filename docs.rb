@@ -27,23 +27,23 @@ navigation = [
 # Visão Geral do GedWeb
   { "url" => "gedweb",                           "view_path" => "gedweb/index"},
 # Entendendo o Sistema
-  { "url" => "understanding_the_system",             "view_path" => "understanding_the_system/index"},
+  { "url" => "understanding_the_system",         "view_path" => "understanding_the_system/index"},
 # Menu Principal
-  { "url" => "menu_main",             "view_path" => "menu_main/index"},
+  { "url" => "menu_main",           			 "view_path" => "menu_main/index"},
 # Principal
-  { "url" => "principal",             "view_path" => "principal/index"},
+  { "url" => "principal",            			 "view_path" => "principal/index"},
 # Novo Documento
-  { "url" => "new_document",             "view_path" => "new_document/index"},
+  { "url" => "new_document",         			 "view_path" => "new_document/index"},
 # Localizar Documento
-  { "url" => "search_document",             "view_path" => "search_document/index"},
+  { "url" => "search_document",         	     "view_path" => "search_document/index"},
 # Configurações
-  { "url" => "config",             "view_path" => "config/index"},
+  { "url" => "config",           		  	     "view_path" => "config/index"},
 # Logs
-  { "url" => "logs",             "view_path" => "logs/index"},
+  { "url" => "logs",             				 "view_path" => "logs/index"},
 # Docmentos Expirados
-  { "url" => "expired_documents",             "view_path" => "expired_documents/index"},
+  { "url" => "expired_documents",       	     "view_path" => "expired_documents/index"},
  # QuickIndex
-  { "url" => "quickindex",             "view_path" => "quickindex/index"},
+  { "url" => "quickindex",             			 "view_path" => "quickindex/index"},
 ]
 
 navigation.each do |item|
