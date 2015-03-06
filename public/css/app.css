@@ -312,7 +312,7 @@ p.more-info {
 	background-color: #ECECEC;
 	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#F4F4F4), to(#ECECEC));
 	background-origin: padding-box;
-	border-bottom-color: #D4D4D4;
+	border-bottom-color: #450844;
 
 	border-radius: 550px;
 	-moz-border-radius: 550px;
@@ -320,13 +320,13 @@ p.more-info {
 
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
-	border-left-color: #D4D4D4;
+	border-left-color: #450844;
 	border-left-style: solid;
 	border-left-width: 1px;
-	border-right-color: #D4D4D4;
+	border-right-color: #450844;
 	border-right-style: solid;
 	border-right-width: 1px;
-	border-top-color: #D4D4D4;
+	border-top-color: #450844;
 
 	border-top-style: solid;
 	border-top-width: 1px;
@@ -389,17 +389,27 @@ div#banner{
 .accordion{
 	position : fixed;
 }
-.accordion-group{
+.accordion-group {    
 	margin-bottom: 7px;
-    border-color:#DFCEE3;
+    border-color:#450844;
+}
+.accordion-heading {
+	background-color:#450844;
+	color: white;	
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.accordion-heading a:hover {
+	color: #9a739a;	
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 .accordion-heading a{
     border-radius: 10px;
 	font-weight: normal;
 	text-decoration: none;
-	background-color:#DFCEE3;
-	color: black;	
+	background-color:#450844;
+	color: white;	
 	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 	margin-left: 15px;
 	height: 13px;
@@ -613,15 +623,15 @@ p.note {
 #navegador a {
   font-weight:bold;
   background-color:'transparent' ;
-  border:1px solid #BDBDBD ;
+  border:1px solid #450844 ;
   padding:0.1cm;
   text-decoration:none;
   border-radius: 10px;
 }
 #navegador a:hover {
   font-weight:bold;
-  background:#C0C0C0  ;
-  border:1px solid black ;
+  background:#450844  ;
+  border:1px solid white ;
   border-radius:10px;
 }
 
