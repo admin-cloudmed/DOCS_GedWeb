@@ -1,7 +1,6 @@
 <center>
-   <h1><%= I18n.t("search_document.index.title") %></h1>
+   <h1><%= I18n.t("quickindex.index.title") %></h1>
 </center>
-<p class="more-info"><%= I18n.t("general.updated_at", :date => "07/11/2013") %></p>
 <h3><%= I18n.t("general.index") %></h3>
 
 
@@ -11,18 +10,35 @@
 		<table>
 			<tr>
 				<td>
-					<a href="#search_document_inner">
-						<div class="metro-tile "><%= I18n.t("search_document.index.table_of_contents.search_document") %></div>
+					<a href="#quickindex_inner">
+						<div class="metro-tile "><%= I18n.t("quickindex.index.table_of_contents.quickindex") %></div>
 					</a>
 				</td>
 				<td>
-					<a href="#default_inner">
-						<div class="metro-tile metro-tile-small"><%= I18n.t("search_document.index.table_of_contents.default") %></div>
+					<a href="#about_inner">
+						<div class="metro-tile"><%= I18n.t("quickindex.index.table_of_contents.about") %></div>
 				    </a>
 				</td>
 				<td>
-					<a href="#custom_inner">
-						<div class="metro-tile metro-tile-small"><%= I18n.t("search_document.index.table_of_contents.custom") %></div>
+					<a href="#config_inner">
+						<div class="metro-tile metro-tile-small"><%= I18n.t("quickindex.index.table_of_contents.config") %></div>
+				    </a>
+				</td>
+            <tr/>
+            <tr>
+				<td>
+					<a href="#contasmedicas_inner">
+						<div class="metro-tile"><%= I18n.t("quickindex.index.table_of_contents.contasmedicas") %></div>
+				    </a>
+				</td>
+				<td>
+					<a href="#smartindex">
+						<div class="metro-tile"><%= I18n.t("quickindex.index.table_of_contents.smartindex") %></div>
+				    </a>
+				</td>
+				<td>
+					<a href="#logs">
+						<div class="metro-tile metro-tile-small"><%= I18n.t("quickindex.index.table_of_contents.logs") %></div>
 				    </a>
 				</td>
 			</tr>
@@ -33,24 +49,71 @@
 
 <!--QUICK INDEX -->
 <div id ="menu_main" > &nbsp </div>
-<h2 id="menu_main_inner"><%= I18n.t("quickindex.index.table_of_contents.quickindex") %></h2>
+<h2 id="quickindex_inner"><%= I18n.t("quickindex.index.table_of_contents.quickindex") %></h2>
 <div class="row-fluid">
     <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.quickindex.item_1") %></p>
-    <center><img width:"95%" src="/img/menuprincipal/principal2.jpg"/></center>
-    <p align="right" style="font-weight:bold;"><%= I18n.t("quickindex.index.quickindex.item_2") %></p>
+    <center><img width:"95%" src="/img/quickindex/telainicial.jpg"/></center>
     <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.quickindex.item_3") %></p>
 </div>
 
 <!--ABAAAOUT -->
 <div id ="menu_main" > &nbsp </div>
-<h2 id="menu_main_inner"><%= I18n.t("quickindex.index.table_of_contents.about") %></h2>
+<h2 id="about_inner"><%= I18n.t("quickindex.index.table_of_contents.about") %></h2>
 <div class="row-fluid">
     <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.about.item_1") %></p>
+</div>
+</br>
+
+<!--Configurações -->
+<div id ="menu_main" > &nbsp </div>
+<h2 id="config_inner"><%= I18n.t("quickindex.index.table_of_contents.config") %></h2>
+<div class="row-fluid">
+    <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.config.item_1") %></p>
+    <center><img width:"95%" src="/img/quickindex/config1.jpg"/></center>
+    </br>
+    <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.config.item_2") %></p>
+    <center><img width:"95%" src="/img/quickindex/config2.jpg"/></center>
+    </br>
+    <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.config.item_3") %></p>
+    <center><img width:"95%" src="/img/quickindex/config3.jpg"/></center>
+    </br>
+    <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.config.item_4") %></p>
+    <center><img width:"95%" src="/img/quickindex/config4.jpg"/></center>
+    </br>
+    <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.config.item_5") %></p>
+    <center><img width:"95%" src="/img/quickindex/config5.jpg"/></center>
+</div>
+</br>
+
+<!-- Contas Médicas -->
+<div id ="menu_main" > &nbsp </div>
+<h2 id="contasmedicas_inner"><%= I18n.t("quickindex.index.table_of_contents.contasmedicas") %></h2>
+<div class="row-fluid">
+    <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.contasmedicas.item_1") %></p>
     <center><img width:"95%" src="/img/menuprincipal/principal2.jpg"/></center>
-    <p align="right" style="font-weight:bold;"><%= I18n.t("quickindex.index.about.item_2") %></p>
-    <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.about.item_3") %></p>
+    <p align="right" style="font-weight:bold;"><%= I18n.t("quickindex.index.contasmedicas.item_2") %></p>
+    <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.contasmedicas.item_3") %></p>
 </div>
 
+<!--SmartIndex -->
+<div id ="menu_main" > &nbsp </div>
+<h2 id="smartindex_inner"><%= I18n.t("quickindex.index.table_of_contents.smartindex") %></h2>
+<div class="row-fluid">
+    <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.smartindex.item_1") %></p>
+    <center><img width:"95%" src="/img/menuprincipal/principal2.jpg"/></center>
+    <p align="right" style="font-weight:bold;"><%= I18n.t("quickindex.index.smartindex.item_2") %></p>
+    <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.smartindex.item_3") %></p>
+</div>
+
+<!-- Logs -->
+<div id ="menu_main" > &nbsp </div>
+<h2 id="logs_inner"><%= I18n.t("quickindex.index.table_of_contents.logs") %></h2>
+<div class="row-fluid">
+    <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.logs.item_1") %></p>
+    <center><img width:"95%" src="/img/menuprincipal/principal2.jpg"/></center>
+    <p align="right" style="font-weight:bold;"><%= I18n.t("quickindex.index.logs.item_2") %></p>
+    <p style="text-indent: 3em; text-align: justify;"> <%= I18n.t("quickindex.index.logs.item_3") %></p>
+</div>
 
 <!--Botões -->
 <ul class="pager">

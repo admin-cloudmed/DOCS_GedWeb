@@ -219,10 +219,10 @@
       models:
         item_1: "Menu > Modelos"
         item_2: "Esta é a tela inicial da Configurações > Modelos. Aqui você poderá criar novos modelos, visualizar e alterá-los. Caso você tenha cadastrado algum modelo previamente, este aparecerá na tabela abaixo. Para acessar as configurações do modelo desejado, basta clicar sobre seu nome. Para cadastrar um novo modelo, basta clicar no botão <b>Novo Modelo</b>."
-        item_4: "Esta é a tela de cadastro de novos modelos. Podemos configurar para qual departamento o documento do modelo está vinculado. Também podemos informar a qual <a href:#Grupo>Grupo</a> será vinculado."
+        item_4: "Esta é a tela de cadastro de novos modelos. Podemos configurar para qual departamento o documento do modelo está vinculado. Também podemos informar a qual <a href=#Grupo>Grupo</a> será vinculado."
         item_5: "Agora vamos inserir os campos do modelo de documento. Primeiro passo é definir o nome do 1º campo do modelo que estamos criando:"
         item_6: "Agora precisamos definir o tipo valor que o campo receberá quando o usuário digitar. <br/>Temos os seguintes tipos de valores: </br><b>String:</b> Determina o campo como alfanumérico; </br><b>Número Inteiro:</b> Determina o campo como sendo númerico de valor inteiro; </br><b>Data:</b> Determina o campo como Data; </br><b>Decimal:</b> Determina o campo como numeral decimal. </br> Basta escolher o tipo desejado e ir para o próximo passo."
-        item_7: "Agora selecionamos o tipo de captura do documento. Temos os seguintes tipos: <br/><b>Scanner:</b> O campo é obtido através do scanneamento do documento; </br><b>Integração:</b> O campo é obtido através de uma integração com o sistema, ligado diretamente ao <a href:#WebService>WebServices</a>;</br><b>Digitado no QuickIndex:</b> O campo é preenchido através da digitação no <a href:#QuickIndex>QuickIndex</a></br>Selecione o tipo de captura desejado e prossiga para o próximo passo."
+        item_7: "Agora selecionamos o tipo de captura do documento. Temos os seguintes tipos: <br/><b>Scanner:</b> O campo é obtido através do scanneamento do documento; </br><b>Integração:</b> O campo é obtido através de uma integração com o sistema, ligado diretamente ao <a href=#WebService>WebServices</a>;</br><b>Digitado no QuickIndex:</b> O campo é preenchido através da digitação no <a href=#QuickIndex>QuickIndex</a></br>Selecione o tipo de captura desejado e prossiga para o próximo passo."
         item_8: "Aqui configuramos se o que tiver preenchido no campo, se torne o Título do Documento a ser inserido no GedWeb."
         item_9: "E aqui determinamos se o campo é obrigatório, ou seja, é necessário seu preenchimento para o envio do documento ao GedWeb. Feito isso, clique em <b>Adicionar Campo</b> e o campo será inserido no modelo de documento."
         item_10: " Para acrescentar mais campos ao modelo, basta repetir o processo e inserir novos campos ao modelo. Caso queira editar o modelo e seus campos, basta ir na página inicial de Configurações > Modelos e clicar no Modelo a ser modificado."
@@ -301,15 +301,18 @@
         smartindex: "SmartIndex"
         logs: "Logs"
       quickindex:
-        item_1: "quickindex item_1"
+        item_1: "Envie seus arquivos ao GedWeb através de um processo automático! Sim, o GedWeb possui uma ferramenta chamada QuickIndex a qual podemos enviar as documentações diretamente do seu computador sem maiores complicações. Abaixo vamos aprender a utilizar e configurar suas funções."
         item_2: "quickindex item_2"
-        item_3: "quickindex item_3"
+        item_3: "A tela acima, é a tela inicial do aplicativo. Verifique que temos o menu no lado esquerdo, e, o mural de recados ao centro do aplicativo. Esse mural de recados, é o mesmo da página <a href=principal#principal_inner>Principal/Mural</a> do GedWeb."
       about:
-        item_1: "aboutitem_1"
+        item_1: "O QuickIndex é um aplicativo que é instalado no PC do usuário que faz a sincronia e envio de arquivos diretamente de uma pasta local gerado pelo Scanner, para o servidor do GedWeb. Assim temos um processo rápido e seguro para o envio de vários arquivos gerados pelo Scanner. Ao scannear algum documento de múltiplas páginas por exemplo, o Scanner salva na pasta configurada o arquivo com uma identificação em seu nome que posteriormente o QuickIndex irá interpretar e enviar os documentos de acordo com esse index."
         item_2: "aboutitem_2"
       config:
-        item_1: "configitem_1"
-        item_2: "configitem_2"
+        item_1: "Vamos configurar o QuickIndex. Esta é a primeira tela de configuração do aplicativo. Primeiramente vamos selecionar a pasta em que o Scanner está salvando os documentos scanneados. Para isso, clicamos em <b>'Local de origem dos arquivos a serem indexados'</b>, e procuramos a pasta que será o repositório dos documentos scanneados:"
+        item_2: "Agora precisamos configurar o servidor de acesso ao GedWeb. Para isso, clicamos no campo <b>URL base</b> e informamos o endereço do servidor GedWeb que você tem acesso. Exemplo: 'http://ged.unimedlocal.com.br'. Caso precise, configure o acesso do QuickIndex através da liberação no Proxy informando o IP, Usuário e Senha do seu proxy."
+        item_3: "Após configurar o servidor de acesso, vamos configurar os Uploads (envio de arquivos) do QuickIndex. Aqui podemos definir quando faremos os uploads para o servidor do GedWeb. Para delimitar o envio automático de arquivos atribuindo um tamanho máximo por arquivo, basta selecionar a opção e definir até quantos megabytes, o envio dos arquivos será automático e independente do horário estabelecido de envio. Podemos também definir um horário de envio dos arquivos maiores diariamente. Assim o envio dos arquivos maiores podem ocorrer apenas em horários onde não há picos no servidor tornando o envio mais seguro. Caso queira, poderá definir o envio automático independentemente do tamanho, assim o upload poderá se iniciar à partir do momento da inserção do documento na pasta. Também podemos desativar o upload automático e enviar todos os arquivos no horário estipulado para o envio."
+        item_4: "O QuickIndex ainda possuí uma ferramenta que irá facilitar o envio dos arquivos do setor Contas Médicas. O SmartIndex analisa automáticamente o index gerado pelo scanner e atribui o lote de documento a ser enviado, com as <a href='config#config_inner'>configurações</a> pré-cadastradas e disponíveis pelo GedWeb."
+        item_5: "Para isso, precisamos definir o layout do index para que o SmartIndex atribua as configurações corretas como definir quais campos será processados e sua posição. Conforme a imagem abaixo, veja que podemos ordenar os campos de acordo com a sua posição. Para ordenar, basta colocar o número referente a posição. Exemplo: Primeiro campo : 1. Caso não tenha o campo nos documentos, utilize <b>-1</b> para desconsiderar o campo. Em <b>Path do Arquivo</b> utilize <b>-1</b> caso o index <color=red><b>NÃO</b></color> esteja separado do Nome do Arquivo. Já o campo <b>Separador Usado</b> serve como referência ao programa para identificado os separados dos campos no arquivo."
       contasmedicas:
         item_1: "contasmedicasitem_1"
         item_2: "contasmedicasitem_2"
