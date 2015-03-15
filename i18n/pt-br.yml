@@ -269,16 +269,13 @@
         indexing: "Indexação"
       log:
         item_1: "Menu > Logs"
-        item_2: "conteúdo"
-        item_3: "Logs"
+        item_2: "A opção de Logs do GedWeb nos fornece os registros pertinentes aos envios de arquivo ao GedWeb. Quaisquer mudanças, envios, etc que forem feitos no sistema, serão identificados posteriormente pelos Logs. Temos duas maneiras diferentes de busca de logs: <a href='logs#drive_inner'>Movimentação</a> e <a href='logs#indexing_inner'>Indexação</a>."
       drive:
         item_1: "Menu > Movimentação"
-        item_2: "conteúdo"
-        item_3: "Movimentação"
+        item_2: "A pesquisa de Logs por Movimentação, nos retorna logs conforme a movimentação dos arquivos no GedWeb, baseados nos campos de pesquisa: <ul><li><b>'Data':</b> Data da movimentação do documento;</li><li><b>'Login':</b> Usuário que fez a movimentação no GedWeb;</li><li><b>'Palavra na Descrição do Log':</b> Alguma palavra que esteja contida no log;</li><li><b>'Registro':</b> Localização através do registro criado ao inserir um documento no GedWeb;</li></ul><br>Também podemos limitar a quantidade de logs exibidos por página pesquisada, definidos no campo <b>'Quantidade por Página'</b>"
       indexing:
         item_1: "Menu > Indexação"
-        item_2: "conteúdo"
-        item_3: "Indexação"
+        item_2: "A pesquisa de Logs por Indexação tem como função retornar os logs gerados na indexação dos arquivos no GedWeb. Os campos para a pesquisa são: <ul><li><b>'Data de Digitalização':</b> Data em que o documento foi scanneado (digitalizado);</li><li><b>'Período do Documento':</b> Remete a data do documento, e não da digitalização.;</li><li><b>'Por Login':</b> Por Login que fez a indexação do documento;</li><li><b>'Por Tipo':</b> Logs com base no tipo do documento;</li></ul>"
   expired_documents:
    index:
       title: "Documentos Expirados"
@@ -287,8 +284,7 @@
         expired_documents: "Documentos Expirados"
       expired_documents:
         item_1: "Menu > Documentos Expirados"
-        item_2: "conteúdo"
-        item_3: "Documentos Expirados"
+        item_2: "Neste menu, podemos efetuar a busca de documentos que possuem alguma validade informada em sua indexação. Como por exemplo contratos que possuem um prazo específico. Basta informar uma data que a pesquisa irá retornar todos documentos que estão expirados ou vão expirar até a data informada."
   quickindex:
    index:
       title: "QuickIndex"
@@ -311,8 +307,8 @@
         item_1: "Vamos configurar o QuickIndex. Esta é a primeira tela de configuração do aplicativo. Primeiramente vamos selecionar a pasta em que o Scanner está salvando os documentos scanneados. Para isso, clicamos em <b>'Local de origem dos arquivos a serem indexados'</b>, e procuramos a pasta que será o repositório dos documentos scanneados:"
         item_2: "Agora precisamos configurar o servidor de acesso ao GedWeb. Para isso, clicamos no campo <b>URL base</b> e informamos o endereço do servidor GedWeb que você tem acesso. Exemplo: 'http://ged.unimedlocal.com.br'. Caso precise, configure o acesso do QuickIndex através da liberação no Proxy informando o IP, Usuário e Senha do seu proxy."
         item_3: "Após configurar o servidor de acesso, vamos configurar os Uploads (envio de arquivos) do QuickIndex. Aqui podemos definir quando faremos os uploads para o servidor do GedWeb. Para delimitar o envio automático de arquivos atribuindo um tamanho máximo por arquivo, basta selecionar a opção e definir até quantos megabytes, o envio dos arquivos será automático e independente do horário estabelecido de envio. Podemos também definir um horário de envio dos arquivos maiores diariamente. Assim o envio dos arquivos maiores podem ocorrer apenas em horários onde não há picos no servidor tornando o envio mais seguro. Caso queira, poderá definir o envio automático independentemente do tamanho, assim o upload poderá se iniciar à partir do momento da inserção do documento na pasta. Também podemos desativar o upload automático e enviar todos os arquivos no horário estipulado para o envio."
-        item_4: "O QuickIndex ainda possuí uma ferramenta que irá facilitar o envio dos arquivos do setor Contas Médicas. O SmartIndex analisa automáticamente o index gerado pelo scanner e atribui o lote de documento a ser enviado, com as <a href='config#config_inner'>configurações</a> pré-cadastradas e disponíveis pelo GedWeb."
-        item_5: "Para isso, precisamos definir o layout do index para que o SmartIndex atribua as configurações corretas como definir quais campos será processados e sua posição. Conforme a imagem abaixo, veja que podemos ordenar os campos de acordo com a sua posição. Para ordenar, basta colocar o número referente a posição. Exemplo: Primeiro campo : 1. Caso não tenha o campo nos documentos, utilize <b>-1</b> para desconsiderar o campo. Em <b>Path do Arquivo</b> utilize <b>-1</b> caso o index <color=red><b>NÃO</b></color> esteja separado do Nome do Arquivo. Já o campo <b>Separador Usado</b> serve como referência ao programa para identificado os separados dos campos no arquivo."
+        item_4: "O QuickIndex ainda possuí uma ferramenta que irá facilitar o envio dos arquivos. O SmartIndex analisa automáticamente o index gerado pelo scanner e atribui o lote de documento a ser enviado, com as <a href='config#config_inner'>configurações</a> pré-cadastradas e disponíveis pelo GedWeb."
+        item_5: "Temos configurações adicionais para o setor de Contas Médicas. Para isso, precisamos definir o layout do index para que o SmartIndex atribua as configurações corretas como definir quais campos será processados e sua posição. Conforme a imagem abaixo, veja que podemos ordenar os campos de acordo com a sua posição. Para ordenar, basta colocar o número referente a posição. Exemplo: Primeiro campo : 1. Caso não tenha o campo nos documentos, utilize <b>-1</b> para desconsiderar o campo. Em <b>Path do Arquivo</b> utilize <b>-1</b> caso o index <color=red><b>NÃO</b></color> esteja separado do Nome do Arquivo. Já o campo <b>Separador Usado</b> serve como referência ao programa para identificado os separados dos campos no arquivo."
       contasmedicas:
         item_1: "contasmedicasitem_1"
         item_2: "contasmedicasitem_2"
