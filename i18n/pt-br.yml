@@ -61,7 +61,7 @@
         item_1: "Olá, bem-vindo ao GedWeb da CloudMed! Iniciaremos agora, um passeio pelo sistema e suas funções, entendendo seus principais processos e funcionalidades. Fique à vontade e, qualquer dúvida, entre em contato conosco!"
       flow:
         item_1: "O usuário separa os papéis/documentos que deseja incluir no GedWeb. De posse destes documentos, ele os escaneia tranformando-os em documentos digitais. A partir daí, podemos definir como será o processo de entrada desses documentos no GedWeb;"
-        item_2: "Quando são muitos documentos, podemos agilizar o processo de inclusão ao sistema, assim que escaneados, o scanner envia os documentos para uma pasta específica e os documentos ficam disponíveis para que o “Quick Index” faça o upload automático ao sistema, também podemos configurar no scanner um arquivo de índice, que pode previamente definir qual tipo de documento que está sendo escaneado, assim, o documento já chega identificado no sistema.  Agora, quando o volume de documentos é menor, temos a opção fazer a inclusão manual desses documentos utilizando qualquer dispositivo que tenha acesso à internet, no browser, dietamente no GedWeb;"
+        item_2: "Quando são muitos documentos, podemos agilizar o processo de inclusão ao sistema, assim que escaneados, o scanner envia os documentos para uma pasta específica e os documentos ficam disponíveis para que o “Quick Index” faça o upload automático ao sistema, também podemos configurar no scanner um arquivo de índice, que pode previamente definir qual tipo de documento que está sendo escaneado, assim, o documento já chega identificado no sistema.  Agora, quando o volume de documentos é menor, temos a opção fazer a inclusão manual desses documentos utilizando qualquer dispositivo que tenha acesso à internet, no browser, diretamente no GedWeb;"
         item_3: "Com os documentos indexados, os usuários passam a ter acesso à todas funcionalidades do GedWeb em um ambiente seguro. O usuário pode localizar um documento por diversos critérios de busca e então realizar as seguintes ações: Download do documento, Atualizar a sua versão, Relacioná-lo a outro documento, Editar suas informações e etc. Qualquer usuário (de acordo com as regras de segurança definidas previamente), pode acessar o documento facilitando a integração e compartilhamento de informações dentro da empresa."
   menu_main:
    index:
@@ -119,7 +119,7 @@
         step6: "6º Passo"
       new_document:
         item_1: "Menu > Novo Documento"
-        item_2: "Vamos dar nosso primeiro passo para indexar manualmente um novo documento no GedWeb da CloudMed! Para facilitar o entendimento, se você ainda não conhece os 'Tipos de Documento' e os 'Modelos' clique nos links e olhe lá, esteja preparado para indexar qualquer tipo de documento no GedWeb."
+        item_2: "Vamos dar nosso primeiro passo para indexar manualmente um novo documento no GedWeb da CloudMed! Para facilitar o entendimento, se você ainda não conhece os <a href='config#types'>'Tipos de Documento'</a> e os <a href='config#models'>'Modelos'</a> clique nos links e olhe lá, esteja preparado para indexar qualquer tipo de documento no GedWeb."
       step1:
         item_1: "Ao adicionar um novo documento, o primeiro campo que o GedWeb solicita é o 'Tipo de Documento' que você deseja indexar. Esse campo trabalha com a função de 'autocompletar' e, dependendo do tipo que você escolher, o GedWeb já carregará os campos referentes ao tipo, ou sejá, os campos para preenchimento podem variar dependendo do modelo escolhido, veja abaixo:"
         item_2: "1º Passo - Tipo de Documento"
@@ -143,40 +143,6 @@
         item_5: "Para finalizar, o que devemos fazer é informar e carregar o arquivo que irá ser indexado, clique em <b>'Escolher arquivo'</b> e, escolha o arquivo desejado na caixa de abrir e clique em <b>OK</b>."
         item_2: "6º Passo - Opcionais/Seleção do documento"
         item_4: "Aguade o processo se completar e Pronto! Já temos nosso documento indexado no GedWeb, contando com toda sua segurança na nuvem."
-  new_document_ged:
-   index:
-      title: "Novo Documento"
-      table_of_contents: 
-        index: "Índice"
-        new_document_ged: "Novo Documento"
-        step1: "1º Passo"
-        step2: "2º Passo"
-        step3: "3º Passo"
-        step4: "4º Passo"
-        step5: "5º Passo"
-        step6: "6º Passo"
-      new_document_ged:
-        item_1: "Menu > Novo Documento"
-        item_2: "Vamos dar nosso primeiro passo para indexar manualmente um novo documento no GedWeb da CloudMed! Para facilitar o entendimento, se você ainda não conhece os 'Tipos de Documento' e os 'Modelos' clique nos links e olhe lá, esteja preparado para indexar qualquer tipo de documento no GedWeb."
-      step1:
-        item_1: "Ao adicionar um novo documento, o primeiro campo que o GedWeb solicita é o 'Tipo de Documento' que você deseja indexar. Esse campo trabalha com a função de 'autocompletar' e, dependendo do tipo que você escolher, o GedWeb já carregará os campos referentes ao tipo, veja abaixo:"
-        item_2: "1º Passo - Tipo de Documento"
-      step2:
-        item_1: "Preenchendo os campos requeridos pelo 'Tipo de Documento' escolhido, o próximo passo agora é inserir o Título do Documento, lembramos que, se o tipo escolhido para o documento estiver relacionado à um modelo, e se nesse modelo estiver difinido algum campo como o Título do Documento, esse campo não será obrigatório, e, mesmo que seja preenchido, ele será substituido pelo campo definido no modelo."
-        item_2: "2º Passo - Título do Documento"
-      step3:
-        item_1: "Nesse passo, informamos as datas referentes ao documento que está sendo indexado no sistema, dando destaque aos campos <b>'Data de criação do documento'</b> e <b>'Data da Digitalização'</b> que são obrigatórios. Repare também que temos o campo <b>'Este documento expira em'</b> onde colocamos a data em que esse documento irá expirar, com essa informação, conseguimos definir quantos dias antes da expiração o GedWeb irá nos notificar por e-mail de tal evento."
-        item_2: "3º Passo - Datas"
-      step4:
-        item_1: "Agora definiremos o grupo que esse documento a ser anexado pertence, para saber melhor como funciona os grupos clique aqui. Por exemplo, o arquivo de uma nota fiscal de certo fornecedor pode muito bem pertencer ao grupo <b>'Financeiro/Fornecedores/NotasFiscais/NomeFornecedor'</b> não? Entendendo o que é e como funciona os Grupos, você saberá corretamente em qual grupo o documento pode ser anexado ;)"
-        item_2: "4º Passo - Grupo"
-      step5:
-        item_1: "Esse passo é de grande e extrema importância para o documento que está à ser indexado no sistema, aqui definiremos qual será a confidencialidade (publico ou privado) do documento. Também temos a caixa <b>'Permitir Download por Terceiros'</b> que bloqueia ou não o download do arquivo por outras pessoas a não você quem indexou .Por fim, também definiremos quais os departamentos da empresa ao qual esse documento pertence e estará visível."
-        item_2: "5º Passo - Destinação/Confidencialidade"
-      step6:
-        item_1: "Concluindo, temos a opção <b>'Campos Opcionais'</b> que libera ou não o campos adicionais e relevantes para a indexação desse documento, clique e veja a variedade de campos que são opcionais, mas, muito relevantes para a indexação do documento (Lembramos que, quanto mais informações adicionarmos ao indexar um documento, mais a ferramenta ficará inteligente e saberá disponibilizar o documento anexo quando necessário). Para finalizar, o que devemos fazer é informar e carregar o arquivo que irá ser indexado, clique em <b>'Escolher arquivo'</b> e, na caixa que abrir, escolha o arquivo desejado e clique em <b>OK</b>"
-        item_2: "6º Passo - Opcionais/Seleção do documento"
-        item_3: "Aguade o processo se completar e Pronto! Já temos nosso documento indexado no GedWeb, contando com toda sua segurança na nuvem."
   search_document:
    index:
       title: "Localizar Documento"
@@ -219,10 +185,10 @@
       models:
         item_1: "Menu > Modelos"
         item_2: "Esta é a tela inicial da Configurações > Modelos. Aqui você poderá criar novos modelos, visualizar e alterá-los. Caso você tenha cadastrado algum modelo previamente, este aparecerá na tabela abaixo. Para acessar as configurações do modelo desejado, basta clicar sobre seu nome. Para cadastrar um novo modelo, basta clicar no botão <b>Novo Modelo</b>."
-        item_4: "Esta é a tela de cadastro de novos modelos. Podemos configurar para qual departamento o documento do modelo está vinculado. Também podemos informar a qual <a href=#Grupo>Grupo</a> será vinculado."
+        item_4: "Esta é a tela de cadastro de novos modelos. Podemos configurar para qual departamento o documento do modelo está vinculado. Também podemos informar a qual <a href=config#groups>Grupo</a> será vinculado."
         item_5: "Agora vamos inserir os campos do modelo de documento. Primeiro passo é definir o nome do 1º campo do modelo que estamos criando:"
         item_6: "Agora precisamos definir o tipo valor que o campo receberá quando o usuário digitar. <br/>Temos os seguintes tipos de valores: </br><b>String:</b> Determina o campo como alfanumérico; </br><b>Número Inteiro:</b> Determina o campo como sendo númerico de valor inteiro; </br><b>Data:</b> Determina o campo como Data; </br><b>Decimal:</b> Determina o campo como numeral decimal. </br> Basta escolher o tipo desejado e ir para o próximo passo."
-        item_7: "Agora selecionamos o tipo de captura do documento. Temos os seguintes tipos: <br/><b>Scanner:</b> O campo é obtido através do scanneamento do documento; </br><b>Integração:</b> O campo é obtido através de uma integração com o sistema, ligado diretamente ao <a href=#WebService>WebServices</a>;</br><b>Digitado no QuickIndex:</b> O campo é preenchido através da digitação no <a href=#QuickIndex>QuickIndex</a></br>Selecione o tipo de captura desejado e prossiga para o próximo passo."
+        item_7: "Agora selecionamos o tipo de captura do documento. Temos os seguintes tipos: <br/><b>Scanner:</b> O campo é obtido através do scanneamento do documento; </br><b>Integração:</b> O campo é obtido através de uma integração com o sistema, ligado diretamente ao <a href=config#webservices>WebServices</a>;</br><b>Digitado no QuickIndex:</b> O campo é preenchido através da digitação no QuickIndex</br>Selecione o tipo de captura desejado e prossiga para o próximo passo."
         item_8: "Aqui configuramos se o que tiver preenchido no campo, se torne o Título do Documento a ser inserido no GedWeb."
         item_9: "E aqui determinamos se o campo é obrigatório, ou seja, é necessário seu preenchimento para o envio do documento ao GedWeb. Feito isso, clique em <b>Adicionar Campo</b> e o campo será inserido no modelo de documento."
         item_10: " Para acrescentar mais campos ao modelo, basta repetir o processo e inserir novos campos ao modelo. Caso queira editar o modelo e seus campos, basta ir na página inicial de Configurações > Modelos e clicar no Modelo a ser modificado."
@@ -269,7 +235,7 @@
         indexing: "Indexação"
       log:
         item_1: "Menu > Logs"
-        item_2: "A opção de Logs do GedWeb nos fornece os registros pertinentes aos envios de arquivo ao GedWeb. Quaisquer mudanças, envios, etc que forem feitos no sistema, serão identificados posteriormente pelos Logs. Temos duas maneiras diferentes de busca de logs: <a href='logs#drive_inner'>Movimentação</a> e <a href='logs#indexing_inner'>Indexação</a>."
+        item_2: "A opção de Logs do GedWeb nos fornece os registros pertinentes aos envios de arquivo ao GedWeb. Quaisquer mudanças, envios, etc que forem feitos no sistema, serão identificados posteriormente pelos Logs. Temos duas maneiras diferentes de busca de logs: <a href='logs#drive'>Movimentação</a> e <a href='logs#indexing'>Indexação</a>."
       drive:
         item_1: "Menu > Movimentação"
         item_2: "A pesquisa de Logs por Movimentação, nos retorna logs conforme a movimentação dos arquivos no GedWeb, baseados nos campos de pesquisa: <ul><li><b>'Data':</b> Data da movimentação do documento;</li><li><b>'Login':</b> Usuário que fez a movimentação no GedWeb;</li><li><b>'Palavra na Descrição do Log':</b> Alguma palavra que esteja contida no log;</li><li><b>'Registro':</b> Localização através do registro criado ao inserir um documento no GedWeb;</li></ul><br>Também podemos limitar a quantidade de logs exibidos por página pesquisada, definidos no campo <b>'Quantidade por Página'</b>"
@@ -299,7 +265,7 @@
       quickindex:
         item_1: "Envie seus arquivos ao GedWeb através de um processo automático! Sim, o GedWeb possui uma ferramenta chamada QuickIndex a qual podemos enviar as documentações diretamente do seu computador sem maiores complicações. Abaixo vamos aprender a utilizar e configurar suas funções."
         item_2: "quickindex item_2"
-        item_3: "A tela acima, é a tela inicial do aplicativo. Verifique que temos o menu no lado esquerdo, e, o mural de recados ao centro do aplicativo. Esse mural de recados, é o mesmo da página <a href=principal#principal_inner>Principal/Mural</a> do GedWeb."
+        item_3: "A tela acima, é a tela inicial do aplicativo. Verifique que temos o menu no lado esquerdo, e, o mural de recados ao centro do aplicativo. Esse mural de recados, é o mesmo da página <a href=principal#principal>Principal/Mural</a> do GedWeb."
       about:
         item_1: "O QuickIndex é um aplicativo que é instalado no PC do usuário que faz a sincronia e envio de arquivos diretamente de uma pasta local gerado pelo Scanner, para o servidor do GedWeb. Assim temos um processo rápido e seguro para o envio de vários arquivos gerados pelo Scanner. Ao scannear algum documento de múltiplas páginas por exemplo, o Scanner salva na pasta configurada o arquivo com uma identificação em seu nome que posteriormente o QuickIndex irá interpretar e enviar os documentos de acordo com esse index."
         item_2: "aboutitem_2"
@@ -307,7 +273,7 @@
         item_1: "Vamos configurar o QuickIndex. Esta é a primeira tela de configuração do aplicativo. Primeiramente vamos selecionar a pasta em que o Scanner está salvando os documentos scanneados. Para isso, clicamos em <b>'Local de origem dos arquivos a serem indexados'</b>, e procuramos a pasta que será o repositório dos documentos scanneados:"
         item_2: "Agora precisamos configurar o servidor de acesso ao GedWeb. Para isso, clicamos no campo <b>URL base</b> e informamos o endereço do servidor GedWeb que você tem acesso. Exemplo: 'http://ged.unimedlocal.com.br'. Caso precise, configure o acesso do QuickIndex através da liberação no Proxy informando o IP, Usuário e Senha do seu proxy."
         item_3: "Após configurar o servidor de acesso, vamos configurar os Uploads (envio de arquivos) do QuickIndex. Aqui podemos definir quando faremos os uploads para o servidor do GedWeb. Para delimitar o envio automático de arquivos atribuindo um tamanho máximo por arquivo, basta selecionar a opção e definir até quantos megabytes, o envio dos arquivos será automático e independente do horário estabelecido de envio. Podemos também definir um horário de envio dos arquivos maiores diariamente. Assim o envio dos arquivos maiores podem ocorrer apenas em horários onde não há picos no servidor tornando o envio mais seguro. Caso queira, poderá definir o envio automático independentemente do tamanho, assim o upload poderá se iniciar à partir do momento da inserção do documento na pasta. Também podemos desativar o upload automático e enviar todos os arquivos no horário estipulado para o envio."
-        item_4: "O QuickIndex ainda possuí uma ferramenta que irá facilitar o envio dos arquivos. O SmartIndex analisa automáticamente o index gerado pelo scanner e atribui o lote de documento a ser enviado, com as <a href='config#config_inner'>configurações</a> pré-cadastradas e disponíveis pelo GedWeb."
+        item_4: "O QuickIndex ainda possuí uma ferramenta que irá facilitar o envio dos arquivos. O SmartIndex analisa automáticamente o index gerado pelo scanner e atribui o lote de documento a ser enviado, com as <a href='config#config'>configurações</a> pré-cadastradas e disponíveis pelo GedWeb."
         item_5: "Temos configurações adicionais para o setor de Contas Médicas. Para isso, precisamos definir o layout do index para que o SmartIndex atribua as configurações corretas como definir quais campos será processados e sua posição. Conforme a imagem abaixo, veja que podemos ordenar os campos de acordo com a sua posição. Para ordenar, basta colocar o número referente a posição. Exemplo: Primeiro campo : 1. Caso não tenha o campo nos documentos, utilize <b>-1</b> para desconsiderar o campo. Em <b>Path do Arquivo</b> utilize <b>-1</b> caso o index <color=red><b>NÃO</b></color> esteja separado do Nome do Arquivo. Já o campo <b>Separador Usado</b> serve como referência ao programa para identificado os separados dos campos no arquivo."
       contasmedicas:
         item_1: "contasmedicasitem_1"
