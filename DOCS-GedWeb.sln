@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DOCS-GedWeb", "http://localhost:37512", "{DB8D6F10-9390-4DEC-80D8-467EF1A848A5}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_37512"
+		Debug.AspNetCompiler.PhysicalPath = "..\Dropbox\CloudMed\Projetos CloudMed\Site e Documentacoes\GedWeb\DOCS-GedWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_37512\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_37512"
+		Release.AspNetCompiler.PhysicalPath = "..\Dropbox\CloudMed\Projetos CloudMed\Site e Documentacoes\GedWeb\DOCS-GedWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_37512\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\Dropbox\CloudMed\Projetos CloudMed\Site e Documentacoes\GedWeb\DOCS-GedWeb\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB8D6F10-9390-4DEC-80D8-467EF1A848A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8D6F10-9390-4DEC-80D8-467EF1A848A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
